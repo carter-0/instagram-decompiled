@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/igds_color_creation_button"/>
+            <size android:height="@dimen/add_to_story_dual_destination_share_sheet_avatar_icon_size" android:width="@dimen/add_to_story_dual_destination_share_sheet_avatar_icon_size"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/story_emoji_quick_reactions_more_button__app_bitmap_0"/>
+</layer-list>

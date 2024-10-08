@@ -1,0 +1,198 @@
+package com.instagram.wellbeing.reporting.common.impersonation;
+
+import X.0wb;
+import X.28D;
+import X.AnonymousClass07i;
+import X.AnonymousClass0fD;
+import X.AnonymousClass0wW;
+import X.AnonymousClass2t9;
+import X.AnonymousClass2tC;
+import X.AnonymousClass4DH;
+import X.AnonymousClass4DJ;
+import X.C249383je;
+import X.C273434mZ;
+import X.C294875nB;
+import X.C48058EUc;
+import X.C49238Erh;
+import X.C66579MXk;
+import X.C67058MhZ;
+import X.C70598OCv;
+import X.C72208OyY;
+import X.C72982PRp;
+import X.DbU;
+import X.DbX;
+import X.Dbc;
+import X.EBM;
+import X.EG8;
+import X.EGN;
+import X.FVA;
+import X.G6V;
+import X.NHU;
+import android.content.Context;
+import android.graphics.RectF;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import com.instagram.common.session.UserSession;
+import com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout;
+import com.instagram.model.direct.DirectSearchResult;
+import com.instagram.model.direct.DirectShareTarget;
+import com.instagram.model.reels.Reel;
+import com.instagram.ui.widget.gradientspinneravatarview.GradientSpinnerAvatarView;
+import com.instagram.ui.widget.search.SearchController;
+import com.instagram.user.model.User;
+import java.util.List;
+
+public class HighProfileVictimSearchBottomSheetFragment extends AnonymousClass4DH implements C294875nB, C273434mZ {
+    public int A00;
+    public int A01;
+    public UserSession A02;
+    public User A03;
+    public FVA A04;
+    public C72982PRp A05;
+    public NHU A06;
+    public String A07;
+    public String A08;
+    public boolean A09;
+    public boolean A0A;
+    public TouchInterceptorFrameLayout mTouchInterceptorFrameLayout;
+
+    public final AnonymousClass4DJ B7u() {
+        return this;
+    }
+
+    public final /* synthetic */ void Cj6(DirectSearchResult directSearchResult, int i, int i2, int i3, int i4, int i5) {
+    }
+
+    public final /* synthetic */ void Cj7(View view, DirectSearchResult directSearchResult, int i, int i2, int i3, int i4) {
+    }
+
+    public final void D8N(DirectShareTarget directShareTarget) {
+    }
+
+    public final /* synthetic */ void D9P(DirectShareTarget directShareTarget) {
+    }
+
+    public final void Dk7(RectF rectF, View view, C67058MhZ mhZ, DirectShareTarget directShareTarget, String str, List list, boolean z, boolean z2) {
+    }
+
+    public final void DpB(View view, C67058MhZ mhZ, DirectSearchResult directSearchResult, String str, int i, int i2, int i3, int i4, boolean z) {
+    }
+
+    public final void DpC(RectF rectF, 28D r2, DirectShareTarget directShareTarget) {
+    }
+
+    public final void DpD(View view) {
+    }
+
+    public final void EIL() {
+    }
+
+    public final String getModuleName() {
+        return "HIGH_PROFILE_VICTIM_SEARCH_BOTTOM_SHEET_FRAGMENT";
+    }
+
+    public final TouchInterceptorFrameLayout C8v() {
+        return this.mTouchInterceptorFrameLayout;
+    }
+
+    public final void Dk6(C67058MhZ mhZ, DirectSearchResult directSearchResult, String str, int i, int i2, int i3, int i4, int i5) {
+        SearchController searchController = this.A04.A01;
+        if (searchController != null) {
+            searchController.A00();
+        }
+        NHU nhu = this.A06;
+        C72982PRp pRp = this.A05;
+        if (pRp != null && nhu != null && (directSearchResult instanceof DirectShareTarget)) {
+            boolean z = this.A09;
+            ((C48058EUc) pRp).A00.A01((DirectShareTarget) directSearchResult, nhu, z, false);
+        }
+    }
+
+    public final void Dnr(C67058MhZ mhZ, DirectSearchResult directSearchResult, Reel reel, GradientSpinnerAvatarView gradientSpinnerAvatarView, int i, int i2, int i3, int i4, int i5) {
+        0wb.A01.Ew0("HighProfileVictimSearchBottomSheetFragment", C66579MXk.A00(101));
+    }
+
+    public final AnonymousClass0wW getSession() {
+        return this.A02;
+    }
+
+    public final void afterOnResume() {
+        super.afterOnResume();
+        if (this.A0A) {
+            FVA fva = this.A04;
+            fva.A04 = true;
+            SearchController searchController = fva.A01;
+            if (searchController != null) {
+                searchController.A02(false, 0.0f);
+            }
+            this.A0A = false;
+        }
+        Dbc.A0P(this);
+    }
+
+    /* JADX WARNING: type inference failed for: r15v0, types: [X.07Z, com.instagram.wellbeing.reporting.common.impersonation.HighProfileVictimSearchBottomSheetFragment, X.0iw, androidx.fragment.app.Fragment] */
+    public final void onCreate(Bundle bundle) {
+        int A022 = AnonymousClass0fD.A02(1540643210);
+        HighProfileVictimSearchBottomSheetFragment.super.onCreate(bundle);
+        Bundle bundle2 = this.mArguments;
+        bundle2.getClass();
+        this.A06.getClass();
+        UserSession A0U = DbX.A0U(this);
+        this.A02 = A0U;
+        A0U.getClass();
+        this.A07 = DbU.A0l(bundle2, "ReportingConstants.ARG_CONTENT_ID");
+        this.A09 = bundle2.getBoolean(C66579MXk.A00(54));
+        this.A01 = bundle2.getInt(C66579MXk.A00(51), 0);
+        this.A00 = bundle2.getInt("DirectSearchUserFragment.DIRECT_SEARCH_SECTION_LIMIT", 5);
+        Context requireContext = requireContext();
+        UserSession userSession = this.A02;
+        String A0r = DbX.A0r(this.A03);
+        this.A04 = new FVA(requireContext, AnonymousClass07i.A00(this), userSession, this, this, A0r, this.A01, this.A00);
+        String str = this.A08;
+        String str2 = this.A07;
+        if (!(!this.A09 || str2 == null || str == null)) {
+            C49238Erh.A00(this.A02, bundle2.getBoolean("ReportingConstants.ARG_IS_ENCRYPTED_THREAD")).A00(this, this.A03, str, str2);
+        }
+        AnonymousClass0fD.A09(-941301136, A022);
+    }
+
+    /* JADX WARNING: type inference failed for: r0v3, types: [X.2tF, java.lang.Object] */
+    /* JADX WARNING: type inference failed for: r0v5, types: [X.2tF, java.lang.Object] */
+    public final View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
+        int A022 = AnonymousClass0fD.A02(-1743043500);
+        this.mTouchInterceptorFrameLayout = new TouchInterceptorFrameLayout(requireContext());
+        FVA fva = this.A04;
+        FragmentActivity requireActivity = requireActivity();
+        TouchInterceptorFrameLayout touchInterceptorFrameLayout = this.mTouchInterceptorFrameLayout;
+        AnonymousClass2tC A002 = AnonymousClass2t9.A00(requireActivity);
+        C294875nB r4 = fva.A0A;
+        UserSession userSession = fva.A09;
+        A002.A01(new EGN(this, userSession, r4, "direct_user_search", false));
+        A002.A01(new Object());
+        Context context = fva.A08;
+        A002.A01(new EG8(context, (G6V) null));
+        AnonymousClass2t9 A0U = DbU.A0U(A002, new Object());
+        fva.A00 = A0U;
+        fva.A02 = new EBM(context, A0U, userSession, fva.A03);
+        SearchController searchController = new SearchController(requireActivity, touchInterceptorFrameLayout, fva.A00, new LinearLayoutManager(requireActivity), userSession, (C72208OyY) null, (C249383je) null, (C70598OCv) null, fva, fva.A07, 0, false, false, false, false, false, false, false);
+        fva.A01 = searchController;
+        searchController.A08 = false;
+        registerLifecycleListener(searchController);
+        this.A0A = true;
+        TouchInterceptorFrameLayout touchInterceptorFrameLayout2 = this.mTouchInterceptorFrameLayout;
+        AnonymousClass0fD.A09(-684296771, A022);
+        return touchInterceptorFrameLayout2;
+    }
+
+    public final void onDestroyView() {
+        int A022 = AnonymousClass0fD.A02(1723356771);
+        super.onDestroyView();
+        this.mTouchInterceptorFrameLayout = null;
+        this.A04.A04 = false;
+        AnonymousClass0fD.A09(1874666237, A022);
+    }
+}

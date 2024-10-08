@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/igds_color_primary_background"/>
+            <size android:height="@dimen/account_discovery_bottom_gap" android:width="@dimen/account_discovery_bottom_gap"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/abc_control_corner_material" android:top="@dimen/abc_control_corner_material" android:right="@dimen/abc_control_corner_material" android:bottom="@dimen/abc_control_corner_material">
+        <shape android:shape="oval">
+            <solid android:color="?attr/igds_color_list_badge"/>
+            <size android:height="@dimen/account_discovery_bottom_gap" android:width="@dimen/account_discovery_bottom_gap"/>
+        </shape>
+    </item>
+</layer-list>

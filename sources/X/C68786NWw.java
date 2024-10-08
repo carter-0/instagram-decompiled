@@ -1,0 +1,29 @@
+package X;
+
+import android.content.Context;
+import com.instagram.common.session.UserSession;
+
+/* renamed from: X.NWw  reason: case insensitive filesystem */
+public final class C68786NWw extends C331017Pd {
+    public final UserSession A00;
+    public final AnonymousClass9HC A01;
+    public final AnonymousClass7L2 A02;
+    public final 17i A03;
+
+    public final /* bridge */ /* synthetic */ C232262tL A05(AnonymousClass7LQ r8) {
+        0qQ.A0B(r8, 0);
+        Context A06 = JTQ.A06(this);
+        UserSession userSession = this.A00;
+        17i r5 = this.A03;
+        AnonymousClass7L2 r4 = this.A02;
+        return C72479P7o.A00(A06, userSession, this.A01, r8, r4, r5, false);
+    }
+
+    public C68786NWw(UserSession userSession, AnonymousClass7EZ r3, C332807Wl r4, AnonymousClass9HC r5, C68811NXv nXv, AnonymousClass7L2 r7) {
+        super(r3, nXv, r4);
+        this.A02 = r7;
+        this.A00 = userSession;
+        this.A01 = r5;
+        this.A03 = 17h.A00(userSession);
+    }
+}

@@ -1,0 +1,19 @@
+package X;
+
+public final class BcF extends C250663lr implements C250673ls {
+    public final AnonymousClass4Kx modelSelectionSet() {
+        C342787pA r3 = C342787pA.A00;
+        AnonymousClass4L7 A0V = C41847B3o.A0V(r3);
+        AnonymousClass4L7 A0K = C41845B3m.A0K(r3);
+        AnonymousClass4L8 r0 = AnonymousClass4L8.A00;
+        return AnonymousClass7TE.A0h(new AnonymousClass4Kr[]{A0V, A0K, C41847B3o.A0D(r0), C41847B3o.A0Q(r0), C41847B3o.A0R(r0), C41847B3o.A0S(r0), C41847B3o.A0N(r3), C41845B3m.A0C(BcE.class, "slider_sticker", 1797596982), C41847B3o.A0G(r3), C41845B3m.A0J(r3), C41847B3o.A0H(r3), C41847B3o.A0I(r3), C41847B3o.A0Y(r3)});
+    }
+
+    public BcF(int i) {
+        super(i);
+    }
+
+    public BcF() {
+        super(-1220103355);
+    }
+}

@@ -1,0 +1,36 @@
+package X;
+
+/* renamed from: X.3py  reason: invalid class name and case insensitive filesystem */
+public enum C252953py {
+    BARCELONA_ATTRIBUTION,
+    HIDDEN,
+    SPONSORED,
+    ORGANIC_BRANDED_CONTENT,
+    LOCATION,
+    CLIPS_AUDIO_ATTRIBUTION,
+    AFFILIATE_TAG,
+    REMIX_TAG,
+    MUSIC_ATTRIBUTION,
+    AUTHENTICITY_TAG,
+    GROUP_PROFILE_ATTRIBUTION,
+    INTERNAL_ONLY,
+    RAY_BAN_STORIES,
+    FOLLOWER_ONLY_AUDIENCE_CONTROL,
+    HORIZON_WORLDS,
+    META_QUEST,
+    GEN_AI_ATTRIBUTION,
+    MEDIA_TOPIC,
+    TIMESTAMP,
+    HASHTAG_USER,
+    OPEN_CAROUSEL_SUBTITLE,
+    CLIPS_AUDIO_TRANSLATION_ATTRIBUTION,
+    ICONIC_ENTRYPOINTS,
+    WORLD_PAGES,
+    ORIGINALITY_INFO_LABEL;
+
+    /* access modifiers changed from: public */
+    static {
+        C252953py[] r0;
+        A00 = 0oU.A00(r0);
+    }
+}

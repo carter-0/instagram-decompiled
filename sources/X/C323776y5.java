@@ -1,0 +1,29 @@
+package X;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/* renamed from: X.6y5  reason: invalid class name and case insensitive filesystem */
+public final class C323776y5 extends C232322tW {
+    public final List A00 = new ArrayList();
+    public final List A01 = new ArrayList();
+
+    public final boolean A04(int i, int i2) {
+        return true;
+    }
+
+    public final int A02() {
+        return this.A00.size();
+    }
+
+    public final int A03() {
+        return this.A01.size();
+    }
+
+    public final boolean A05(int i, int i2) {
+        if (((Number) this.A01.get(i)).intValue() == ((Number) this.A00.get(i2)).intValue()) {
+            return true;
+        }
+        return false;
+    }
+}

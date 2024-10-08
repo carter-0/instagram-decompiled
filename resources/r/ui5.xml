@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt" android:height="581dp" android:width="65dp" android:viewportWidth="65" android:viewportHeight="581">
+    <path android:fillColor="@drawable/$clips_viewer_fast_play_nux__0" android:pathData="M0,290.5a117,290.5 0,1 0,234 0a117,290.5 0,1 0,-234 0z"/>
+</vector>

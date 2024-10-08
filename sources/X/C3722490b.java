@@ -1,0 +1,104 @@
+package X;
+
+import com.google.common.util.concurrent.ListenableFuture;
+import java.util.concurrent.CancellationException;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
+/* renamed from: X.90b  reason: invalid class name and case insensitive filesystem */
+public class C3722490b implements ListenableFuture {
+    public Object A00;
+    public Throwable A01;
+    public boolean A02;
+    public boolean A03;
+    public final C3722590c A04 = new Object();
+
+    public final synchronized void A01(Object obj) {
+        if (!this.A03) {
+            this.A00 = obj;
+            this.A03 = true;
+            this.A04.A01();
+            notifyAll();
+        }
+    }
+
+    public final synchronized void A02(Throwable th) {
+        if (th == null) {
+            throw new NullPointerException();
+        } else if (!this.A03) {
+            this.A01 = th;
+            this.A03 = true;
+            this.A04.A01();
+            notifyAll();
+        }
+    }
+
+    public void A03() {
+    }
+
+    public final synchronized boolean cancel(boolean z) {
+        boolean z2;
+        z2 = false;
+        if (!this.A03) {
+            z2 = true;
+            this.A02 = true;
+            this.A03 = true;
+            if (z) {
+                A03();
+            }
+            notifyAll();
+            this.A04.A01();
+        }
+        return z2;
+    }
+
+    public final synchronized Object get(long j, TimeUnit timeUnit) {
+        Throwable th;
+        if (!Thread.interrupted()) {
+            if (!this.A03) {
+                if (j > 0) {
+                    timeUnit.timedWait(this, j);
+                } else {
+                    wait();
+                }
+            }
+            if (!this.A03) {
+                th = new TimeoutException();
+            } else if (!this.A02) {
+                Throwable th2 = this.A01;
+                if (th2 == null) {
+                } else {
+                    th = new ExecutionException(th2);
+                }
+            } else {
+                th = new CancellationException();
+            }
+        } else {
+            th = new InterruptedException();
+        }
+        throw th;
+        return this.A00;
+    }
+
+    public final synchronized boolean isCancelled() {
+        return this.A02;
+    }
+
+    public final synchronized boolean isDone() {
+        return this.A03;
+    }
+
+    public final void addListener(Runnable runnable, Executor executor) {
+        this.A04.A02(runnable, executor);
+    }
+
+    public final synchronized Object get() {
+        try {
+        } catch (TimeoutException e) {
+            throw new ExecutionException(e);
+        }
+        return get(0, TimeUnit.MILLISECONDS);
+    }
+}

@@ -1,0 +1,31 @@
+package X;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/* renamed from: X.8Qt  reason: invalid class name and case insensitive filesystem */
+public final class C355638Qt {
+    public long A00;
+    public final Map A01;
+
+    public final long A00(String str) {
+        Map map = this.A01;
+        Number number = (Number) map.get(str);
+        if (number == null) {
+            long j = this.A00;
+            this.A00 = 1 + j;
+            number = Long.valueOf(j);
+            map.put(str, number);
+        }
+        return number.longValue();
+    }
+
+    public C355638Qt(long j) {
+        this.A01 = new HashMap(48);
+        this.A00 = j;
+    }
+
+    public C355638Qt() {
+        this(0);
+    }
+}

@@ -1,0 +1,6 @@
+package X;
+
+public final class K1K extends 1XP {
+    public String A00 = "";
+    public boolean A01;
+}

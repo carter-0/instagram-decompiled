@@ -1,0 +1,57 @@
+package com.instagram.api.schemas;
+
+import X.0oU;
+import X.AnonymousClass7TG;
+import X.DbS;
+import X.Dbb;
+import X.FK6;
+import android.os.Parcel;
+import android.os.Parcelable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public enum TextAppAutoArchiveSettingInt implements Parcelable {
+    UNRECOGNIZED("TextAppAutoArchiveSettingInt_unspecified"),
+    DEFAULT_NEVER("DEFAULT_NEVER"),
+    ONE_DAY("ONE_DAY"),
+    ONE_MINUTE("ONE_MINUTE"),
+    ONE_MONTH("ONE_MONTH"),
+    ONE_WEEK("ONE_WEEK"),
+    ONE_YEAR("ONE_YEAR"),
+    SIX_MONTHS("SIX_MONTHS"),
+    THREE_DAYS("THREE_DAYS");
+    
+    public static final Map A01 = null;
+    public static final Parcelable.Creator CREATOR = null;
+    public final String A00;
+
+    public final int describeContents() {
+        return 0;
+    }
+
+    /* access modifiers changed from: public */
+    static {
+        int i;
+        TextAppAutoArchiveSettingInt[] textAppAutoArchiveSettingIntArr;
+        A02 = 0oU.A00(textAppAutoArchiveSettingIntArr);
+        LinkedHashMap A0x = DbS.A0x(AnonymousClass7TG.A01(r3));
+        for (TextAppAutoArchiveSettingInt textAppAutoArchiveSettingInt : values()) {
+            A0x.put(textAppAutoArchiveSettingInt.A00, textAppAutoArchiveSettingInt);
+        }
+        A01 = A0x;
+        CREATOR = FK6.A00(23);
+    }
+
+    public final String toString() {
+        return this.A00;
+    }
+
+    /* access modifiers changed from: public */
+    TextAppAutoArchiveSettingInt(String str) {
+        this.A00 = str;
+    }
+
+    public final void writeToParcel(Parcel parcel, int i) {
+        Dbb.A0q(parcel, this);
+    }
+}

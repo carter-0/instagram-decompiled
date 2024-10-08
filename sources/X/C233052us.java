@@ -1,0 +1,24 @@
+package X;
+
+/* renamed from: X.2us  reason: invalid class name and case insensitive filesystem */
+public enum C233052us {
+    NONE,
+    UNDEFINED,
+    DEMO_MULTI_ADS,
+    FEED_STANDALONE_MULTI_ADS,
+    FEED_POST_AD_CLICK_MULTI_ADS,
+    FEED_POST_AD_CLICK_SINGLE_AD,
+    FEED_POST_ORGANIC_ENGAGEMENT_MULTI_ADS,
+    STORIES_POST_AD_ENGAGEMENT_MULTI_ADS,
+    STORIES_STANDALONE_MULTI_ADVERTISER_CAROUSEL,
+    STORIES_POST_AD_ENGAGEMENT_MULTI_ADVERTISER_CAROUSEL,
+    REELS_POST_AD_ENGAGEMENT_MULTI_ADS,
+    REELS_POST_AD_ENGAGEMENT_SINGLE_AD,
+    REELS_STANDALONE_MULTI_ADS;
+
+    /* access modifiers changed from: public */
+    static {
+        C233052us[] r0;
+        A00 = 0oU.A00(r0);
+    }
+}

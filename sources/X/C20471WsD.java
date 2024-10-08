@@ -1,0 +1,64 @@
+package X;
+
+import com.facebook.flipper.plugins.uidebugger.model.InspectableValue$Boolean$Companion;
+import kotlin.Deprecated;
+import kotlin.ReplaceWith;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+
+@Deprecated(level = C16705V2i.HIDDEN, message = "This synthesized declaration should not be used directly", replaceWith = @ReplaceWith(expression = "", imports = {}))
+/* renamed from: X.WsD  reason: case insensitive filesystem */
+public final class C20471WsD implements C255533uI {
+    public static final C20471WsD A00;
+    public static final /* synthetic */ C255543uJ A01;
+
+    public final /* bridge */ /* synthetic */ Object deserialize(Decoder decoder) {
+        0qQ.A0B(decoder, 0);
+        C255543uJ r5 = A01;
+        C2590240b ADI = decoder.ADI(r5);
+        boolean z = false;
+        int i = 0;
+        while (true) {
+            int ANp = ADI.ANp(r5);
+            if (ANp == -1) {
+                ADI.AST(r5);
+                return new C14988UIn(i, z);
+            } else if (ANp == 0) {
+                z = ADI.ANi(r5, 0);
+                i |= 1;
+            } else {
+                throw new C20799WzB(ANp);
+            }
+        }
+    }
+
+    /* JADX WARNING: type inference failed for: r1v0, types: [java.lang.Object, X.WsD, X.3uI] */
+    static {
+        ? obj = new Object();
+        A00 = obj;
+        A01 = C13991Tnr.A0q("boolean", obj);
+    }
+
+    public final C255463uA[] childSerializers() {
+        return new C255463uA[]{AnonymousClass40E.A00};
+    }
+
+    public final SerialDescriptor getDescriptor() {
+        return A01;
+    }
+
+    public final /* bridge */ /* synthetic */ void serialize(Encoder encoder, Object obj) {
+        C14988UIn uIn = (C14988UIn) obj;
+        AnonymousClass7TG.A1N(encoder, uIn);
+        C255543uJ r3 = A01;
+        AnonymousClass484 ADJ = encoder.ADJ(r3);
+        InspectableValue$Boolean$Companion inspectableValue$Boolean$Companion = C14988UIn.Companion;
+        ADJ.ARt(r3, 0, uIn.A00);
+        ADJ.AST(r3);
+    }
+
+    public final C255463uA[] typeParametersSerializers() {
+        return VKO.A00;
+    }
+}

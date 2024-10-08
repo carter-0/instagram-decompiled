@@ -1,0 +1,11 @@
+package X;
+
+import androidx.compose.ui.Modifier;
+
+public final class GWG implements AnonymousClass5S2 {
+    public final C289315dO AMX(C268024cd r6, AnonymousClass5Q8 r7, long j) {
+        Modifier modifier = C305396Hu.A00;
+        float EJS = (float) r6.EJS(30.0f);
+        return new C289305dN(new AnonymousClass5VN(0.0f, -EJS, C288025bF.A02(j), C288025bF.A00(j) + EJS));
+    }
+}

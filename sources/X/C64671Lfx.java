@@ -1,0 +1,12 @@
+package X;
+
+/* renamed from: X.Lfx  reason: case insensitive filesystem */
+public final class C64671Lfx implements AnonymousClass1qK {
+    public final Integer A00;
+    public final String A01;
+
+    public C64671Lfx(Integer num, String str) {
+        this.A00 = num;
+        this.A01 = str;
+    }
+}

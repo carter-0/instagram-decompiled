@@ -1,0 +1,96 @@
+package X;
+
+import android.os.Bundle;
+import com.facebook.common.callercontext.CallerContext;
+import com.instagram.common.session.UserSession;
+import com.instagram.creation.capture.quickcapture.sundial.viewmodel.drafts.ClipsSharingDraftViewModel;
+
+/* renamed from: X.KNm  reason: case insensitive filesystem */
+public final class C61823KNm extends LP2 {
+    public static final CallerContext A0c = CallerContext.A01(K66.__redex_internal_original_name);
+    public C66576MXh A00;
+    public MVR A01;
+    public C62950Kp2 A02;
+    public C60102Jfi A03;
+    public C61829KNs A04;
+    public final Bundle A05;
+    public final AnonymousClass4DH A06;
+    public final AnonymousClass0iw A07;
+    public final UserSession A08;
+    public final String A09;
+    public final String A0A;
+    public final AnonymousClass0eM A0B;
+    public final AnonymousClass0eM A0C;
+    public final AnonymousClass0eM A0D;
+    public final AnonymousClass0eM A0E;
+    public final AnonymousClass0eM A0F = C66303MMm.A00(this, 0);
+    public final AnonymousClass0eM A0G;
+    public final AnonymousClass0eM A0H;
+    public final AnonymousClass0eM A0I;
+    public final AnonymousClass0eM A0J;
+    public final AnonymousClass0eM A0K;
+    public final AnonymousClass0eM A0L;
+    public final AnonymousClass0eM A0M;
+    public final AnonymousClass0eM A0N;
+    public final AnonymousClass0eM A0O;
+    public final AnonymousClass0eM A0P;
+    public final AnonymousClass0eM A0Q;
+    public final AnonymousClass0eM A0R;
+    public final AnonymousClass0eM A0S;
+    public final AnonymousClass0eM A0T;
+    public final AnonymousClass0eM A0U;
+    public final AnonymousClass0eM A0V;
+    public final AnonymousClass0eM A0W;
+    public final AnonymousClass0eM A0X;
+    public final boolean A0Y;
+    public final boolean A0Z;
+    public final boolean A0a;
+    public final boolean A0b;
+
+    public C61823KNm(Bundle bundle, AnonymousClass4DH r20, AnonymousClass0iw r21, UserSession userSession, String str) {
+        AnonymousClass0iw r4 = r21;
+        UserSession userSession2 = userSession;
+        int A082 = C51970G9q.A08(3, userSession2, r4);
+        String str2 = str;
+        0qQ.A0B(str2, 5);
+        AnonymousClass4DH r13 = r20;
+        this.A06 = r13;
+        Bundle bundle2 = bundle;
+        this.A05 = bundle2;
+        this.A08 = userSession2;
+        this.A07 = r4;
+        this.A0A = str2;
+        this.A09 = bundle2.getString(AnonymousClass000.A00(23));
+        this.A0Z = bundle2.getBoolean(AnonymousClass000.A00(2084));
+        this.A0Y = bundle2.getBoolean(AnonymousClass000.A00(2083));
+        this.A0a = bundle2.getBoolean(AnonymousClass000.A00(2082));
+        this.A0b = !bundle2.getBoolean(AnonymousClass000.A00(100), true);
+        this.A0C = AnonymousClass0eN.A01(C59917Jbg.A00(this, 47));
+        this.A0V = DbS.A0I(C66303MMm.A01(r13, 19), C66303MMm.A01(this, 29), MMY.A00(r13, (Object) null, 13), DbS.A0z(C60130JgB.class));
+        0Yh A0z = DbS.A0z(C60253JiA.class);
+        this.A0B = DbS.A0I(C66303MMm.A01(r13, 25), C66303MMm.A01(r13, 26), MMY.A00(r13, (Object) null, 16), A0z);
+        this.A0U = DbS.A0I(C66303MMm.A01(r13, 27), C66241MKc.A00, MMY.A00(r13, (Object) null, 17), DbS.A0z(C53024GhF.class));
+        0Yh A0z2 = DbS.A0z(C60112Jft.class);
+        this.A0P = DbS.A0I(C66303MMm.A01(r13, 13), C66303MMm.A01(r13, 14), MMY.A00(r13, (Object) null, 6), A0z2);
+        0Yh A0z3 = DbS.A0z(C60119Jg0.class);
+        this.A0M = DbS.A0I(C66303MMm.A01(r13, 15), C66303MMm.A01(r13, 16), MMY.A00(r13, (Object) null, 7), A0z3);
+        this.A0G = DbS.A0I(C66303MMm.A01(r13, 17), C66303MMm.A01(this, 1), MMY.A00(r13, (Object) null, 8), DbS.A0z(C60264JiL.class));
+        this.A0D = DbS.A0I(C66303MMm.A01(r13, 18), C59917Jbg.A00(this, 48), MMY.A00(r13, (Object) null, 9), DbS.A0z(C60259JiG.class));
+        this.A0Q = DbS.A0I(C66303MMm.A01(r13, 20), C66303MMm.A01(this, 9), MMY.A00(r13, (Object) null, 10), DbS.A0z(C60132JgD.class));
+        this.A0O = DbS.A0I(C66303MMm.A01(r13, 21), C66303MMm.A01(this, 8), MMY.A00(r13, (Object) null, 11), DbS.A0z(C60288Jik.class));
+        this.A0W = DbS.A0I(C66303MMm.A01(r13, 22), C66303MMm.A01(this, 30), MMY.A00(r13, (Object) null, 12), DbS.A0z(C60164Jgj.class));
+        this.A0S = DbS.A0I(C66303MMm.A01(r13, 23), C66303MMm.A01(this, 11), MMY.A00(r13, (Object) null, 14), DbS.A0z(ClipsSharingDraftViewModel.class));
+        this.A0X = DbS.A0I(C66303MMm.A01(r13, 24), C66303MMm.A01(this, 31), MMY.A00(r13, (Object) null, 15), DbS.A0z(C60187Jh6.class));
+        this.A0I = C66303MMm.A00(this, 3);
+        this.A0K = C66303MMm.A00(this, 5);
+        0t0 A002 = C66303MMm.A00(this, A082);
+        this.A0J = A002;
+        this.A01 = (C65175Loe) A002.getValue();
+        this.A0E = AnonymousClass0eN.A01(C59917Jbg.A00(this, 49));
+        this.A0R = C66303MMm.A00(this, 10);
+        this.A0H = C66303MMm.A00(this, 2);
+        this.A0T = C66303MMm.A00(this, 12);
+        this.A0N = C66303MMm.A00(this, 7);
+        this.A0L = C66303MMm.A00(this, 6);
+    }
+}

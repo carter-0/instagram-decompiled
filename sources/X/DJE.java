@@ -1,0 +1,13 @@
+package X;
+
+public final class DJE extends 0Yg implements C62320sa {
+    public static final DJE A00 = new DJE();
+
+    public DJE() {
+        super(0);
+    }
+
+    public final /* bridge */ /* synthetic */ Object invoke() {
+        return C60340gF.A00;
+    }
+}

@@ -1,0 +1,25 @@
+package X;
+
+/* renamed from: X.REq  reason: case insensitive filesystem */
+public enum C8898REq {
+    ALLOW,
+    DEFAULT_PURPOSES_OPERATIONAL,
+    INFRASTRUCTURE_ANALYTICS,
+    MESSAGE_CONTENT_DATA_TYPE,
+    MESSAGING_ARMADILLO_METADATA,
+    MESSAGING_CONTENT,
+    MESSAGING_TRAFFIC_METADATA,
+    MOBILE_ACCESS_TOKEN,
+    MOBILE_FAMILY_ACCOUNTING,
+    MOBILE_LOCATION,
+    MOBILE_MESSAGING_CONTENT_DEBUGGING,
+    MOBILE_MESSAGING_CONTENT_E2EE,
+    MOBILE_MESSAGING_CONTENT_OPEN,
+    SENSITIVE_DATA_NO_ADS;
+
+    /* access modifiers changed from: public */
+    static {
+        C8898REq[] rEqArr;
+        A00 = 0oU.A00(rEqArr);
+    }
+}

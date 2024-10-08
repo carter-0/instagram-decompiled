@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:left="-2dp" android:top="-2dp" android:right="-2dp">
+        <shape>
+            <solid android:color="?attr/igds_color_elevated_background"/>
+            <stroke android:width="@dimen/action_sheet_divider_margin_top" android:color="?attr/igds_color_elevated_separator"/>
+        </shape>
+    </item>
+</layer-list>

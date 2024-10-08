@@ -1,0 +1,27 @@
+package X;
+
+/* renamed from: X.8xY  reason: invalid class name and case insensitive filesystem */
+public enum C371088xY implements AnonymousClass0Ac {
+    GALLERY_TOOLBAR("GALLERY_TOOLBAR"),
+    EFFECT_TRAY("EFFECT_TRAY"),
+    MINI_GALLERY("MINI_GALLERY"),
+    CAMERA_TOOL("CAMERA_TOOL"),
+    POST_CAPTURE_UTILITY_TOOLBAR("POST_CAPTURE_UTILITY_TOOLBAR"),
+    STACKED_TIMELINE("STACKED_TIMELINE"),
+    SHARE_SHEET("SHARE_SHEET"),
+    GALLERY_DESTINATION_BAR("GALLERY_DESTINATION_BAR"),
+    POST_CAPTURE_UTILITY_DROPDOWN("POST_CAPTURE_UTILITY_DROPDOWN"),
+    DIALOG("DIALOG"),
+    MORE_OPTIONS("MORE_OPTIONS"),
+    POST_CAPTURE_AUDIO_BAR("POST_CAPTURE_AUDIO_BAR"),
+    SUGGESTED_AUDIO_PILL("SUGGESTED_AUDIO_PILL"),
+    GALLERY_GRID("GALLERY_GRID"),
+    FEED_POST_PUBLISH_SCREEN("FEED_POST_PUBLISH_SCREEN");
+    
+    public final String A00;
+
+    /* access modifiers changed from: public */
+    C371088xY(String str) {
+        this.A00 = str;
+    }
+}

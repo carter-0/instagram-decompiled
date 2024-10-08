@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="design_appbar_state_list_animator">r/dz.xml</animator>
+    <animator name="design_fab_hide_motion_spec">r/d0.xml</animator>
+    <animator name="design_fab_show_motion_spec">r/d1.xml</animator>
+    <animator name="fragment_close_enter">r/d2.xml</animator>
+    <animator name="fragment_close_exit">r/d3.xml</animator>
+    <animator name="fragment_fade_enter">r/d4.xml</animator>
+    <animator name="fragment_fade_exit">r/d5.xml</animator>
+    <animator name="fragment_open_enter">r/d6.xml</animator>
+    <animator name="fragment_open_exit">r/d7.xml</animator>
+    <animator name="fragment_slide_left_enter">r/d8.xml</animator>
+    <animator name="fragment_slide_left_exit">r/d9.xml</animator>
+    <animator name="fragment_slide_right_enter">r/d_.xml</animator>
+    <animator name="fragment_slide_right_exit">r/d-.xml</animator>
+    <animator name="linear_indeterminate_line1_head_interpolator">r/ea.xml</animator>
+    <animator name="linear_indeterminate_line1_tail_interpolator">r/eb.xml</animator>
+    <animator name="linear_indeterminate_line2_head_interpolator">r/ec.xml</animator>
+    <animator name="linear_indeterminate_line2_tail_interpolator">r/ed.xml</animator>
+    <animator name="modal_empty_animator">r/ee.xml</animator>
+    <animator name="modal_slide_down_exit">r/ef.xml</animator>
+    <animator name="modal_slide_up_enter">r/eg.xml</animator>
+    <animator name="mtrl_btn_state_list_anim">r/eh.xml</animator>
+    <animator name="mtrl_btn_unelevated_state_list_anim">r/ei.xml</animator>
+    <animator name="mtrl_card_state_list_anim">r/ej.xml</animator>
+    <animator name="mtrl_chip_state_list_anim">r/ek.xml</animator>
+    <animator name="mtrl_extended_fab_state_list_animator">r/el.xml</animator>
+    <animator name="mtrl_fab_hide_motion_spec">r/em.xml</animator>
+    <animator name="mtrl_fab_show_motion_spec">r/en.xml</animator>
+    <animator name="profile_note_like_bounce">r/eo.xml</animator>
+</resources>

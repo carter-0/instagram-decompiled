@@ -1,0 +1,27 @@
+package X;
+
+public final class V4L {
+    public int A00;
+    public int A01;
+    public int A02;
+    public int A03;
+    public C249703kE A04;
+    public C249703kE A05;
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("ChangeInfo{oldHolder=");
+        sb.append(this.A05);
+        sb.append(", newHolder=");
+        sb.append(this.A04);
+        sb.append(", fromX=");
+        sb.append(this.A00);
+        sb.append(", fromY=");
+        sb.append(this.A01);
+        sb.append(", toX=");
+        sb.append(this.A02);
+        sb.append(", toY=");
+        sb.append(this.A03);
+        return Pxg.A0x(sb);
+    }
+}

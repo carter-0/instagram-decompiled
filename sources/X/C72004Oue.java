@@ -1,0 +1,16 @@
+package X;
+
+/* renamed from: X.Oue  reason: case insensitive filesystem */
+public final /* synthetic */ class C72004Oue implements AnonymousClass68Z {
+    public final /* synthetic */ Long A00;
+
+    public /* synthetic */ C72004Oue(Long l) {
+        this.A00 = l;
+    }
+
+    public final Object apply(Object obj) {
+        Long l = this.A00;
+        MYb mYb = MYb.A0M;
+        return 1aU.A07(new C72169Oxe((C68314NAb) obj, l, 7), AnonymousClass6F9.A00("insert_thread_session"));
+    }
+}

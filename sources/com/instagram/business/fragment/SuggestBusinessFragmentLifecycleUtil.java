@@ -1,0 +1,12 @@
+package com.instagram.business.fragment;
+
+public final class SuggestBusinessFragmentLifecycleUtil {
+    public static void cleanupReferences(SuggestBusinessFragment suggestBusinessFragment) {
+        suggestBusinessFragment.mBusinessNavBar = null;
+        suggestBusinessFragment.mBusinessNavBarHelper = null;
+        suggestBusinessFragment.mStepperHeader = null;
+        suggestBusinessFragment.mRecyclerView = null;
+        suggestBusinessFragment.mLoadingSpinner = null;
+        suggestBusinessFragment.mActionBarService = null;
+    }
+}

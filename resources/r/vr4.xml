@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="top">
+        <rotate android:fromDegrees="145" android:toDegrees="145" android:pivotX="50%" android:pivotY="50%">
+            <shape>
+                <size android:height="9dp" android:width="2dp"/>
+                <solid android:color="@color/grey_9"/>
+                <corners android:radius="1dp"/>
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="6.2dp">
+        <rotate android:fromDegrees="-145" android:toDegrees="-145" android:pivotX="50%" android:pivotY="50%">
+            <shape>
+                <size android:height="9dp" android:width="2dp"/>
+                <solid android:color="@color/grey_9"/>
+                <corners android:radius="1dp"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

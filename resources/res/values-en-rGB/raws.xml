@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="ads_countries_config">r/02j.json</raw>
+    <raw name="currency_format_config">r/02k.json</raw>
+    <raw name="date_format_config">r/02l.json</raw>
+    <raw name="number_format_config">r/02m.json</raw>
+</resources>

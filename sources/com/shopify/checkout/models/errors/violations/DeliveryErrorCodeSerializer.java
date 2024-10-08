@@ -1,0 +1,37 @@
+package com.shopify.checkout.models.errors.violations;
+
+import X.0qQ;
+import X.AnonymousClass7TF;
+import X.AnonymousClass7TG;
+import X.C13991Tnr;
+import X.C18700Vwy;
+import X.C255463uA;
+import X.C255493uD;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+
+public final class DeliveryErrorCodeSerializer implements C255463uA {
+    public static final DeliveryErrorCodeSerializer A00 = new Object();
+    public static final SerialDescriptor A01 = C18700Vwy.A02("DeliveryErrorCode", C255493uD.A00);
+
+    public final SerialDescriptor getDescriptor() {
+        return A01;
+    }
+
+    public final /* bridge */ /* synthetic */ void serialize(Encoder encoder, Object obj) {
+        DeliveryErrorCode deliveryErrorCode = (DeliveryErrorCode) obj;
+        AnonymousClass7TG.A1N(encoder, deliveryErrorCode);
+        encoder.ASB(deliveryErrorCode.A00);
+    }
+
+    public final /* bridge */ /* synthetic */ Object deserialize(Decoder decoder) {
+        String A0l = C13991Tnr.A0l(decoder);
+        for (DeliveryErrorCode deliveryErrorCode : DeliveryErrorCode.values()) {
+            if (0qQ.A0K(deliveryErrorCode.A00, A0l)) {
+                return deliveryErrorCode;
+            }
+        }
+        throw AnonymousClass7TF.A0W("Unknown DeliveryErrorCode value: ", A0l);
+    }
+}

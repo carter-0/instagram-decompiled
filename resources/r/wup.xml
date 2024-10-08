@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <gradient android:startColor="@color/voting_info_center_background_start" android:endColor="@color/voting_info_center_background_end" android:angle="45" android:type="linear" android:centerColor="@color/voting_info_center_background_center"/>
+</shape>

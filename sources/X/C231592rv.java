@@ -1,0 +1,118 @@
+package X;
+
+/* renamed from: X.2rv  reason: invalid class name and case insensitive filesystem */
+public enum C231592rv {
+    ACCESSIBLE_ACTIONS(0, false),
+    AD_CTA(1, false),
+    APP_INSTALL_CTA(2, false),
+    BOOST_GUIDANCE_CTA(3, false),
+    BRANDED_CONTENT_LABEL(4, false),
+    BUYER_INCENTIVE_BANNER(5, false),
+    CAROUSEL_CONTENT(6, false),
+    CAROUSEL_INDICATOR(7, false),
+    CHANNEL_CTA(8, false),
+    COLLABORATIVE_INVITE(9, false),
+    COLLECTION_CTA(10, false),
+    COLLECTION_TOP_WITH_BOTTOM_THREE_CONTENT(11, false),
+    COMMENTS_LOADING_SPINNER(12, false),
+    CONTENT_CONTROL_UNIFIED(13, false),
+    CONTENT_CONTROL_MINIMAL(14, false),
+    FEATURED_PRODUCTS_UPSELL_CTA(15, false),
+    FEED_ADD_YOURS_CTA(16, false),
+    FULL_HEIGHT_ATTRIBUTES(17, false),
+    FULL_HEIGHT_CAROUSEL_MEDIA(18, false),
+    FULL_HEIGHT_COLLABORATIVE_INVITE_RECEIVER(19, false),
+    FULL_HEIGHT_COLLABORATIVE_INVITE_SENDER(20, false),
+    FULL_HEIGHT_MEDIA_INLINE_SURVEY(21, false),
+    FULL_HEIGHT_SINGLE_MEDIA(22, false),
+    FULL_HEIGHT_VIDEO_CAPTION(23, false),
+    GAP(24, false),
+    HOLDOUT(25, false),
+    IFU_UNIT_HSCROLL(26, false),
+    IGBIO_PRODUCT_MEDIA_BAR_CTA(27, false),
+    IMMERSIVE_COMBINED_MEDIA(28, false),
+    IMMERSIVE_PROGRESS_BAR(29, false),
+    IMMERSIVE_SERVER_RENDERED_MEDIA(30, false),
+    ICONIC_ENTRYPOINTS_CTA(31, false),
+    LITHO_COALESCED_METADATA(32, false),
+    MEDIA_AYSF(33, false),
+    MEDIA_BLOKS_BANNER(34, false),
+    MEDIA_COMMENT(35, false),
+    MEDIA_CONTENT(36, false),
+    MEDIA_CONTENT_SERVER_RENDERED(37, false),
+    MEDIA_DEBUG_INFO(38, false),
+    MEDIA_FEEDBACK(39, false),
+    MEDIA_FUNDRAISER(40, false),
+    MEDIA_FUNDRAISER_DONATE_BUTTON(41, false),
+    MEDIA_GUIDE_CONTENT(42, false),
+    MEDIA_HEADER(43, false),
+    MEDIA_HEADLINE(44, false),
+    MEDIA_INLINE_COMPOSER(45, false),
+    MEDIA_INLINE_COMPOSER_BUTTON(46, false),
+    MEDIA_INLINE_SURVEY_QUESTION_ANSWERS(47, false),
+    MEDIA_INLINE_SURVEY_QUESTION_TITLE(48, false),
+    MEDIA_INLINE_SURVEY_SIMPLE_ACTION(49, false),
+    MEDIA_INLINE_SURVEY_TOMBSTONE(50, false),
+    MEDIA_INSIGHTS(51, false),
+    MEDIA_INTERACTIVE(52, false),
+    MEDIA_LABEL_BELOW_COMMENTS(53, false),
+    MEDIA_LIKES_AND_COMMENTS_COUNT(54, false),
+    MEDIA_NOTICE(55, false),
+    MEDIA_OPEN_CAROUSEL_REVIEW_CTA(56, false),
+    MEDIA_OPEN_CAROUSEL_TURN_ON_CTA(57, false),
+    MEDIA_OVERLAY_CTA(58, false),
+    MEDIA_TOPIC_HEADER(59, false),
+    MEDIA_UFI(60, false),
+    MEDIA_VIEW_ALL_COMMENTS(61, false),
+    MEDIA_VIEW_COMMENT_CONTROLS(62, false),
+    POTATO_MEDIA(63, true),
+    PRODUCT_CHICLETS(64, false),
+    PRODUCT_HSCROLL(65, false),
+    PROFESSIONAL_ORGANIC_MEDIA_BAR_CTA(66, false),
+    SCHEDULED_CONTENT_PUBLISH_TIME(67, false),
+    SECONDARY_CTA(68, false),
+    SHOPPING_CTA(69, false),
+    TOMBSTONE_AD_DEMOTION(70, false),
+    TOMBSTONE_REPORT(71, false),
+    TOMBSTONE_AD_BREAK(72, false),
+    TOMBSTONE_REDESIGN_AD_BREAK(73, false),
+    TOMBSTONE_PERSISTENT_AD_BREAK(74, false),
+    TOMBSTONE_SPONSORED(75, false),
+    UNIFIED_FEEDBACK_DISCLOSURE_NUX(76, false),
+    UPCOMING_LIVE_EVENT_MEDIA_BAR_CTA(77, false),
+    UPCOMING_ONLINE_EVENT_MEDIA_BAR_CTA(78, false),
+    LITHO_BOOST_UPSELL_BANNER(79, true),
+    LITHO_MEDIA_UFI(80, true),
+    LITHO_MEDIA_HEADER(81, true),
+    LITHO_AD_CTA(82, true),
+    LITHO_COALESCED_MEDIA(83, true),
+    LITHO_COALESCED_HEADER(84, true),
+    LITHO_COALESCED_FOOTER(85, true),
+    LITHO_OPEN_CAROUSEL_REVIEW_MEDIA_CTA_ROW(86, true),
+    LITHO_MEDIA_CONTENT(87, true),
+    LITHO_HYBRID_FULL_HEIGHT_SINGLE_MEDIA(88, true),
+    LITHO_FULL_HEIGHT_SINGLE_MEDIA(89, true),
+    LITHO_FULL_HEIGHT_SINGLE_MEDIA_CLIPS_UI(90, true),
+    LITHO_TESTIMONIAL(91, true),
+    LITHO_SOCIAL_CONTEXT_BUBBLES(92, true),
+    LITHO_MEDIA_BLOKS_BANNER(93, false),
+    COMPOSE_MEDIA_UFI(94, false),
+    LITHO_CAROUSEL_CONTENT(95, true);
+    
+    public static final C231592rv[] A02 = null;
+    public final String A00;
+    public final boolean A01;
+
+    /* access modifiers changed from: public */
+    static {
+        C231592rv[] r2;
+        A03 = 0oU.A00(r2);
+        A02 = values();
+    }
+
+    /* access modifiers changed from: public */
+    C231592rv(int i, boolean z) {
+        this.A00 = r2;
+        this.A01 = z;
+    }
+}

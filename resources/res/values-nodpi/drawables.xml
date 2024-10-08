@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="auto_dropdown_background_down">r/i6j.9.png</drawable>
+    <drawable name="auto_dropdown_background_up">r/i6k.9.png</drawable>
+    <drawable name="channel_scrim">r/i6l.webp</drawable>
+    <drawable name="fuse_1">r/i6m.png</drawable>
+    <drawable name="fuse_2">r/i6n.png</drawable>
+    <drawable name="fuse_3">r/i6o.png</drawable>
+    <drawable name="fuse_4">r/i6p.png</drawable>
+    <drawable name="fuse_5">r/i6q.png</drawable>
+    <drawable name="fuse_6">r/i6r.webp</drawable>
+    <drawable name="fuse_7">r/i6s.png</drawable>
+    <drawable name="fuse_8">r/i6t.png</drawable>
+    <drawable name="fuse_9">r/i6u.png</drawable>
+    <drawable name="new_feed_pill_shadow">r/i6v.9.png</drawable>
+    <drawable name="smoke">r/i6w.png</drawable>
+    <drawable name="sticker_blue_glasses">r/i6x.png</drawable>
+    <drawable name="sticker_hearts">r/i6y.png</drawable>
+    <drawable name="sticker_mustache">r/i6z.png</drawable>
+    <drawable name="sticker_sunglasses">r/i60.png</drawable>
+    <drawable name="sticker_unicorn">r/i61.png</drawable>
+    <drawable name="trim_frame_bg">r/i62.9.png</drawable>
+</resources>

@@ -1,0 +1,20 @@
+package com.instagram.autoplay.models;
+
+import X.0oU;
+import kotlin.enums.EnumEntries;
+
+public enum AutoplayInitialSelectionSource {
+    LOCAL_NO_CACHE,
+    CACHED_FROM_LAST_SESSION,
+    CACHED_FROM_CURRENT_SESSION;
+
+    public static EnumEntries getEntries() {
+        return $ENTRIES;
+    }
+
+    /* access modifiers changed from: public */
+    static {
+        AutoplayInitialSelectionSource[] $values;
+        $ENTRIES = 0oU.A00($values);
+    }
+}

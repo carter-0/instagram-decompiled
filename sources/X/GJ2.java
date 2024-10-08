@@ -1,0 +1,35 @@
+package X;
+
+public enum GJ2 {
+    PEOPLE,
+    SHOPPING,
+    LOCATION,
+    TEMPLATE,
+    EFFECT,
+    HORIZON_WORLDS,
+    META_QUEST,
+    RAY_BAN_STORIES,
+    THIRD_PARTY_SHARE_TO_CLIPS,
+    STICKER_RESULT,
+    UPCOMING_EVENT,
+    HIGHLIGHT,
+    CONTENT_APPRECIATION,
+    EXTERNAL_MEDIA,
+    STICKER_ANYTHING,
+    META_VERIFIED_LINK,
+    KEY_TAKEAWAYS,
+    GEN_AI_DETECTION,
+    ICONIC_ENTRYPOINTS,
+    CREATOR_PICK,
+    SEE_MORE_PROMPTS,
+    WORLD_PAGES,
+    ICONIC_ENTRYPOINTS_AND_WORLD_PAGES,
+    BIO_PRODUCT,
+    STORIES_TEMPLATE;
+
+    /* access modifiers changed from: public */
+    static {
+        GJ2[] gj2Arr;
+        A00 = 0oU.A00(gj2Arr);
+    }
+}

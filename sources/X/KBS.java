@@ -1,0 +1,16 @@
+package X;
+
+import com.instagram.common.session.UserSession;
+
+public final class KBS extends C228042kh {
+    public final UserSession A00;
+
+    public KBS(UserSession userSession) {
+        0qQ.A0B(userSession, 1);
+        this.A00 = userSession;
+    }
+
+    public final /* bridge */ /* synthetic */ 2YL create() {
+        return new C60223Jhg(this.A00);
+    }
+}

@@ -1,0 +1,23 @@
+package X;
+
+public enum HNL {
+    UNSET_OR_UNRECOGNIZED_ENUM_VALUE("UNSET_OR_UNRECOGNIZED_ENUM_VALUE"),
+    THREADVIEW_SUGGESTED_PROMPT("THREADVIEW_SUGGESTED_PROMPT"),
+    TYPEAHEAD_SUGGESTED_PROMPT("TYPEAHEAD_SUGGESTED_PROMPT"),
+    SUGGESTED_PROMPT("SUGGESTED_PROMPT"),
+    NULL_STATE_PROMPT("NULL_STATE_PROMPT"),
+    USER_INPUT_PROMPT("USER_INPUT_PROMPT"),
+    GENERIC_PROMPT("GENERIC_PROMPT"),
+    THREADVIEW_USER_INPUT_PROMPT("THREADVIEW_USER_INPUT_PROMPT");
+    
+    public final String A00;
+
+    public final String toString() {
+        return this.A00;
+    }
+
+    /* access modifiers changed from: public */
+    HNL(String str) {
+        this.A00 = str;
+    }
+}

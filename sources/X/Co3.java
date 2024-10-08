@@ -1,0 +1,37 @@
+package X;
+
+import java.io.IOException;
+
+public abstract class Co3 {
+    /* JADX WARNING: type inference failed for: r0v4, types: [X.CuB, java.lang.Object] */
+    public static C45307CuB parseFromJson(16F r3) {
+        String str;
+        0qQ.A0B(r3, 0);
+        try {
+            ? obj = new Object();
+            if (r3.A11() != 16L.A0D) {
+                r3.A0z();
+                return null;
+            }
+            while (r3.A1J() != 16L.A09) {
+                String A17 = AnonymousClass7TE.A17(r3);
+                if (C41845B3m.A1I(A17)) {
+                    obj.A00 = AnonymousClass7TF.A0X(r3);
+                } else if ("extra_info".equals(A17)) {
+                    if (r3.A11() == 16L.A0G) {
+                        str = null;
+                    } else {
+                        str = r3.A1P();
+                    }
+                    obj.A01 = str;
+                }
+                r3.A0z();
+            }
+            return obj;
+        } catch (IOException e) {
+            throw e;
+        } catch (Exception e2) {
+            throw AnonymousClass7TE.A0j(e2);
+        }
+    }
+}

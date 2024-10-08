@@ -1,0 +1,27 @@
+package X;
+
+/* renamed from: X.7dS  reason: invalid class name and case insensitive filesystem */
+public enum C335737dS {
+    DEFAULT,
+    NONE,
+    EMPATHY,
+    LWN_WELCOME,
+    LWN_WARNING,
+    LWN_STORY_REPLY_RESPECTFUL,
+    BOTTOMSHEET_MEDIA_CREATION_GENERIC,
+    BOTTOMSHEET_MEDIA_CREATION_STORY,
+    BOTTOMSHEET_STORY_REPLY_RESPECTFUL,
+    BOTTOMSHEET_PENDING_REVIEW_STORY_REPLY,
+    PERSISTENT_WELCOME_LIGHTWEIGHT,
+    PERSISTENT_WARNING_LIGHTWEIGHT,
+    LWN_SET_TONE,
+    PERSISTENT_SET_TONE_LIGHTWEIGHT,
+    DIRECT_CHANNEL_REPLY_NUDGE,
+    TEXT_POST_APP_SET_TONE;
+
+    /* access modifiers changed from: public */
+    static {
+        C335737dS[] r0;
+        A00 = 0oU.A00(r0);
+    }
+}

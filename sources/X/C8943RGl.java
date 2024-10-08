@@ -1,0 +1,23 @@
+package X;
+
+/* renamed from: X.RGl  reason: case insensitive filesystem */
+public enum C8943RGl {
+    UNSET_OR_UNRECOGNIZED_ENUM_VALUE("UNSET_OR_UNRECOGNIZED_ENUM_VALUE"),
+    DEFERRED("DEFERRED"),
+    IMMEDIATE_AND_CHARGE_FULL_PRICE("IMMEDIATE_AND_CHARGE_FULL_PRICE"),
+    IMMEDIATE_SWITCH_WITH_PRORATED_CHARGE("IMMEDIATE_SWITCH_WITH_PRORATED_CHARGE"),
+    IMMEDIATE_SWITCH_WITH_PRORATED_REFUNDS("IMMEDIATE_SWITCH_WITH_PRORATED_REFUNDS"),
+    IMMEDIATE_SWITCH_WITH_TIME_PRORATION("IMMEDIATE_SWITCH_WITH_TIME_PRORATION"),
+    IMMEDIATE_WITHOUT_PRORATION("IMMEDIATE_WITHOUT_PRORATION");
+    
+    public final String A00;
+
+    public final String toString() {
+        return this.A00;
+    }
+
+    /* access modifiers changed from: public */
+    C8943RGl(String str) {
+        this.A00 = str;
+    }
+}

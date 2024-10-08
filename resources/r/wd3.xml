@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <solid android:color="?attr/igds_color_elevated_background_dark"/>
+    <corners android:radius="@dimen/abc_action_bar_elevation_material"/>
+    <padding android:left="@dimen/abc_button_padding_horizontal_material" android:top="@dimen/abc_button_inset_vertical_material" android:right="@dimen/abc_button_padding_horizontal_material" android:bottom="@dimen/abc_button_inset_vertical_material"/>
+</shape>

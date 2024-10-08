@@ -1,0 +1,73 @@
+package X;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.MatrixCursor;
+import android.net.Uri;
+import android.os.Binder;
+import android.os.CancellationSignal;
+import com.instagram.common.session.UserSession;
+import com.instagram.user.model.User;
+
+/* renamed from: X.4Zs  reason: invalid class name and case insensitive filesystem */
+public final class C266594Zs extends ContentProvider {
+    public static final String[] A00 = {"COL_FULL_NAME", "COL_PROFILE_PHOTO_URL"};
+
+    public final boolean onCreate() {
+        return true;
+    }
+
+    public static final MatrixCursor A00(C266594Zs r2) {
+        AnonymousClass2VO.A01.A01();
+        UserSession A05 = 09i.A0A.A05(r2);
+        if (!(A05 instanceof UserSession)) {
+            return null;
+        }
+        User A01 = AnonymousClass0t1.A01.A01(A05);
+        String[] strArr = {A01.getFullName(), A01.Bh3().getUrl()};
+        MatrixCursor matrixCursor = new MatrixCursor(A00);
+        matrixCursor.addRow(strArr);
+        return matrixCursor;
+    }
+
+    public final int delete(Uri uri, String str, String[] strArr) {
+        throw new UnsupportedOperationException();
+    }
+
+    public final String getType(Uri uri) {
+        throw new UnsupportedOperationException();
+    }
+
+    public final Uri insert(Uri uri, ContentValues contentValues) {
+        throw new UnsupportedOperationException();
+    }
+
+    public final int update(Uri uri, ContentValues contentValues, String str, String[] strArr) {
+        throw new UnsupportedOperationException();
+    }
+
+    public final void A01() {
+        int callingUid = Binder.getCallingUid();
+        Context context = getContext();
+        if (context != null) {
+            int i = context.getApplicationInfo().uid;
+            if (callingUid != i && context.getPackageManager().checkSignatures(i, callingUid) != 0) {
+                throw new SecurityException("Access to user information denied");
+            }
+            return;
+        }
+        throw new IllegalStateException("Required value was null.");
+    }
+
+    public final Cursor query(Uri uri, String[] strArr, String str, String[] strArr2, String str2, CancellationSignal cancellationSignal) {
+        A01();
+        return A00(this);
+    }
+
+    public final Cursor query(Uri uri, String[] strArr, String str, String[] strArr2, String str2) {
+        A01();
+        return A00(this);
+    }
+}

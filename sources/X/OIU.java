@@ -1,0 +1,114 @@
+package X;
+
+import android.content.Context;
+import android.graphics.Typeface;
+import android.util.DisplayMetrics;
+import android.view.View;
+import android.view.ViewStub;
+import android.widget.ImageView;
+import android.widget.TextView;
+import com.instagram.android.R;
+import com.instagram.common.session.UserSession;
+import com.instagram.feed.widget.IgProgressImageView;
+import com.instagram.reels.ui.views.reelavatar.view.ReelAvatarWithBadgeView;
+import com.instagram.reels.viewer.attribution.CyclingFrameLayout;
+import com.instagram.ui.widget.framelayout.MediaFrameLayout;
+import com.instagram.ui.widget.segmentedprogressbar.SegmentedProgressBar;
+import com.instagram.ui.widget.textureview.ScalingTextureView;
+
+public final class OIU {
+    public final Context A00;
+    public final View A01;
+    public final View A02;
+    public final View A03;
+    public final View A04;
+    public final TextView A05;
+    public final TextView A06;
+    public final TextView A07;
+    public final TextView A08;
+    public final TextView A09;
+    public final TextView A0A;
+    public final TextView A0B;
+    public final TextView A0C;
+    public final TextView A0D;
+    public final TextView A0E;
+    public final UserSession A0F;
+    public final C71662eb A0G;
+    public final OL9 A0H;
+    public final OEF A0I;
+    public final IgProgressImageView A0J;
+    public final C2806852z A0K;
+    public final C265864Wp A0L;
+    public final C265844Wn A0M;
+    public final ReelAvatarWithBadgeView A0N;
+    public final ReelAvatarWithBadgeView A0O;
+    public final C316866mL A0P;
+    public final CyclingFrameLayout A0Q;
+    public final C316316lS A0R;
+    public final C316316lS A0S;
+    public final MediaFrameLayout A0T;
+    public final SegmentedProgressBar A0U;
+    public final ScalingTextureView A0V;
+
+    public OIU(Context context, View view, UserSession userSession) {
+        int i;
+        this.A00 = context;
+        this.A0F = userSession;
+        IgProgressImageView igProgressImageView = (IgProgressImageView) AnonymousClass7TF.A0F(view, R.id.viewer_image_view);
+        this.A0J = igProgressImageView;
+        MediaFrameLayout mediaFrameLayout = (MediaFrameLayout) AnonymousClass7TF.A0F(view, R.id.direct_expiring_media_viewer_container);
+        this.A0T = mediaFrameLayout;
+        this.A03 = AnonymousClass7TF.A0G(view, R.id.viewer_info_header);
+        igProgressImageView.A05();
+        this.A0N = (ReelAvatarWithBadgeView) AnonymousClass7TF.A0F(view, R.id.user_profile_picture);
+        this.A0O = (ReelAvatarWithBadgeView) AnonymousClass7TF.A0F(view, R.id.visual_timeline_user_profile_picture);
+        this.A0C = AnonymousClass7TG.A0R(view, R.id.visual_timeline_main_text);
+        this.A0D = AnonymousClass7TG.A0R(view, R.id.visual_timeline_subtitle_text);
+        this.A0B = AnonymousClass7TG.A0R(view, R.id.visual_timeline_context_text);
+        this.A0E = AnonymousClass7TG.A0R(view, R.id.visual_timeline_time_passed);
+        View A0G2 = AnonymousClass7TF.A0G(view, R.id.back_shadow_affordance);
+        this.A02 = A0G2;
+        A0G2.setBackgroundResource(0mk.A02(view.getContext()) ? R.drawable.reel_viewer_shadow_right : R.drawable.reel_viewer_shadow_left);
+        TextView A0R2 = AnonymousClass7TG.A0R(view, R.id.main_text);
+        this.A08 = A0R2;
+        TextView A0R3 = AnonymousClass7TG.A0R(view, R.id.context_text);
+        this.A07 = A0R3;
+        this.A0A = AnonymousClass7TG.A0R(view, R.id.time_passed);
+        this.A09 = AnonymousClass7TG.A0R(view, R.id.subtitle_text);
+        this.A0U = (SegmentedProgressBar) AnonymousClass7TF.A0F(view, R.id.reel_viewer_progress_bar);
+        this.A0V = (ScalingTextureView) AnonymousClass7TF.A0F(view, R.id.viewer_texture_view);
+        this.A04 = AnonymousClass7TF.A0G(view, R.id.video_loading_spinner);
+        this.A06 = AnonymousClass7TG.A0R(view, R.id.error_message);
+        ViewStub A0D2 = DbU.A0D(view, R.id.direct_music_sticker_stub);
+        0qQ.A0B(A0D2, 0);
+        this.A0P = new C316866mL(A0D2);
+        this.A0M = new C265844Wn(DbU.A0D(view, R.id.direct_poll_stub));
+        int i2 = 0;
+        this.A0L = new C265864Wp(2b1.A01(view.requireViewById(R.id.direct_poll_v2_stub), false, false));
+        this.A0G = DbY.A0T(view, R.id.zero_rating_data_banner_stub);
+        this.A0Q = (CyclingFrameLayout) AnonymousClass7TF.A0F(view, R.id.reel_viewer_attribution_frame_layout);
+        this.A0H = new OL9(JTR.A0X(view, R.id.reel_app_attribution_subtitle_stub));
+        View requireViewById = view.requireViewById(R.id.reel_music_attribution_subtitle_stub);
+        0qQ.A0C(requireViewById, "null cannot be cast to non-null type android.view.ViewStub");
+        this.A0K = new C2806852z((ViewStub) requireViewById);
+        this.A0R = new C316316lS(JTR.A0X(view, R.id.reel_effect_attribution_subtitle_stub));
+        this.A0S = new C316316lS(JTR.A0X(view, R.id.reel_format_attribution_subtitle_stub));
+        this.A0I = new OEF(JTR.A0X(view, R.id.direct_story_reply_original_media_attribution_stub));
+        this.A01 = view.requireViewById(R.id.direct_visual_message_viewer_action_button_container);
+        this.A05 = AnonymousClass7TG.A0R(view, R.id.direct_visual_message_viewer_action_button);
+        A0R2.setTypeface((Typeface) null, 1);
+        A0R3.setTypeface((Typeface) null);
+        igProgressImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        if (AnonymousClass1Qz.A00(userSession).C82().A0C.contains("ig_zero_rating_data_banner")) {
+            i = context.getResources().getDimensionPixelSize(R.dimen.add_account_icon_circle_radius);
+        } else {
+            i = 0;
+        }
+        DisplayMetrics A0E2 = AnonymousClass7TF.A0E(context);
+        float A002 = ((float) A0E2.widthPixels) / ((float) ((A0E2.heightPixels - i) - (0lz.A02(context) ? C226122ff.A00() + C226122ff.A01() : i2)));
+        mediaFrameLayout.A00 = A002;
+        ((MediaFrameLayout) AnonymousClass7TF.A0F(mediaFrameLayout, R.id.viewer_media_view_container)).A00 = A002;
+        ((MediaFrameLayout) AnonymousClass7TF.A0F(mediaFrameLayout, R.id.viewer_media_view_container)).A00 = 0.5625f;
+        0nA.A0p(mediaFrameLayout, new C73059PUq(mediaFrameLayout));
+    }
+}

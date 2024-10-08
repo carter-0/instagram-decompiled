@@ -1,0 +1,74 @@
+package X;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.fragment.app.Fragment;
+import com.instagram.android.R;
+import com.instagram.common.session.UserSession;
+
+/* renamed from: X.Tuf  reason: case insensitive filesystem */
+public final class C14350Tuf extends C232222tE {
+    public final Context A00;
+    public final Fragment A01;
+    public final UserSession A02;
+    public final WW4 A03;
+    public final XBt A04;
+    public final X41 A05;
+    public final X9Q A06;
+    public final AnonymousClass4DU A07;
+    public final C55972Hqd A08;
+    public final String A09;
+    public final boolean A0A;
+
+    public C14350Tuf(Context context, Fragment fragment, UserSession userSession, WW4 ww4, XBt xBt, X41 x41, X9Q x9q, AnonymousClass4DU r9, C55972Hqd hqd, String str, boolean z) {
+        C13988Tno.A1O(userSession, 7, x9q);
+        this.A01 = fragment;
+        this.A07 = r9;
+        this.A00 = context;
+        this.A03 = ww4;
+        this.A05 = x41;
+        this.A04 = xBt;
+        this.A02 = userSession;
+        this.A09 = str;
+        this.A0A = z;
+        this.A08 = hqd;
+        this.A06 = x9q;
+    }
+
+    public final /* bridge */ /* synthetic */ C249703kE createViewHolder(ViewGroup viewGroup, LayoutInflater layoutInflater) {
+        JTQ.A1L(viewGroup, layoutInflater);
+        View A0D = DbT.A0D(layoutInflater, viewGroup, R.layout.layout_grid_item_video_ad_tall, false);
+        Context context = this.A00;
+        X9Q x9q = this.A06;
+        return new C14351Tug(this.A01.requireActivity(), context, A0D, this.A02, x9q);
+    }
+
+    public final /* bridge */ /* synthetic */ void bind(C232262tL r15, C249703kE r16) {
+        C14348TuX tuX = (C14348TuX) r15;
+        C14331TuC tuC = (C14331TuC) r16;
+        boolean A1Z = AnonymousClass7TG.A1Z(tuX, tuC);
+        C296905qq r4 = tuX.A02;
+        C296995qz B9n = this.A04.B9n(tuX);
+        X41 x41 = this.A05;
+        View view = tuC.A01;
+        x41.ECL(view, B9n, r4, tuX, A1Z);
+        C55972Hqd hqd = this.A08;
+        if (hqd != null) {
+            String id = tuX.A00.getId();
+            if (id != null) {
+                hqd.A00(view, id);
+            } else {
+                throw AnonymousClass7TE.A0y();
+            }
+        }
+        Fragment fragment = this.A01;
+        AnonymousClass4DU r8 = this.A07;
+        C14329TuA.A00(AnonymousClass7TE.A0S(view), fragment, B9n, this.A02, r4, this.A03, tuC, tuX, r8, this.A09, this.A0A);
+    }
+
+    public final Class modelClass() {
+        return C15945UlF.class;
+    }
+}

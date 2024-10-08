@@ -1,0 +1,9 @@
+package X;
+
+import com.facebook.location.platform.api.Location;
+import com.instagram.debug.devoptions.signalsplayground.fragment.CreatorInspirationSignalsPlaygroundTestUsersFragment;
+
+public interface YBW {
+    public static final C21503Xd8[] A00 = {new C21503Xd8("_id", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, true, true, false, false), new C21503Xd8(CreatorInspirationSignalsPlaygroundTestUsersFragment.INTENT_EXTRA_USER_ID, "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("user_name", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, true, false, false, false, false), new C21503Xd8("groupish_id", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8(Location.LATITUDE, "REAL", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("longitude", "REAL", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("full_address", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, true, false, false, false, false), new C21503Xd8("time_millis", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("expiration_time_millis", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("message_id", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, true, false, false, false, false)};
+    public static final C21386XZt[] A01 = new C21386XZt[0];
+}

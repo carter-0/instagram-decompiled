@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="btn_checkbox_checked_mtrl_animation_interpolator_0">r/wvm.xml</interpolator>
+    <interpolator name="btn_checkbox_checked_mtrl_animation_interpolator_1">r/wvn.xml</interpolator>
+    <interpolator name="btn_radio_to_off_mtrl_animation_interpolator_0">r/wvo.xml</interpolator>
+    <interpolator name="fast_out_slow_in">r/wvk.xml</interpolator>
+    <interpolator name="mtrl_fast_out_linear_in">r/wvj.xml</interpolator>
+    <interpolator name="mtrl_linear">r/wvp.xml</interpolator>
+    <interpolator name="mtrl_linear_out_slow_in">r/wvl.xml</interpolator>
+</resources>

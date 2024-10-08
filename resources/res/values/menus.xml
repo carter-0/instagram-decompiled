@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="account_linking_child_group_management_adapter_row_actions">r/0ze.xml</menu>
+    <menu name="menu">r/0zf.xml</menu>
+</resources>

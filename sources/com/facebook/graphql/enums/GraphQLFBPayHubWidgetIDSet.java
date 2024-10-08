@@ -1,0 +1,13 @@
+package com.facebook.graphql.enums;
+
+import X.AnonymousClass7TH;
+import java.util.HashSet;
+import java.util.Set;
+
+public final class GraphQLFBPayHubWidgetIDSet {
+    public static final HashSet A00 = AnonymousClass7TH.A0F("MSITE_WIDGET_TEMPLATE", "NATIVE_WIDGET_TEMPLATE", "REACT_NATIVE_WIDGET_TEMPLATE");
+
+    public static final Set getSet() {
+        return A00;
+    }
+}

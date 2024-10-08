@@ -1,0 +1,9 @@
+package X;
+
+public enum REQ {
+    PROPERTY,
+    WRAPPER_OBJECT,
+    WRAPPER_ARRAY,
+    EXTERNAL_PROPERTY,
+    EXISTING_PROPERTY
+}

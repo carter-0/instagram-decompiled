@@ -1,0 +1,18 @@
+package X;
+
+/* renamed from: X.Egl  reason: case insensitive filesystem */
+public abstract class C48576Egl {
+    public static final Object A00(C307896Rx r4, AnonymousClass6Tm r5) {
+        String str = (String) DbW.A0e(r5);
+        boolean A01 = Q0A.A01(r5.A02());
+        if (str != null) {
+            0hq A05 = C308206Td.A05(r4);
+            if (A05 != null) {
+                A05.A0y(str, A01 ? 1 : 0);
+            }
+            return null;
+        }
+        FBt.A00(C308206Td.A04(r4), C308206Td.A05(r4));
+        return null;
+    }
+}

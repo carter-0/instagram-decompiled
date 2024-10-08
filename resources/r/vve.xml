@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/$igd_ephemeral_toggle_view_icon_check_one__0">
+    <target android:name="group" android:animation="@drawable/$igd_ephemeral_toggle_view_icon_check_one__1"/>
+    <target android:name="path" android:animation="@drawable/$igd_ephemeral_toggle_view_icon_check_one__2"/>
+    <target android:name="path_1" android:animation="@drawable/$igd_ephemeral_toggle_view_icon_check_one__3"/>
+    <target android:name="group_1" android:animation="@drawable/$igd_ephemeral_toggle_view_icon_check_one__4"/>
+</animated-vector>

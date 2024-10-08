@@ -1,0 +1,73 @@
+package com.instagram.react.impl;
+
+import X.AnonymousClass7TE;
+import X.C13570Tcq;
+import X.SFW;
+import com.facebook.fbreact.specs.NativeAnimatedModuleSpec;
+import com.facebook.fbreact.specs.NativeAsyncSQLiteDBStorageSpec;
+import com.facebook.fbreact.specs.NativeCameraRollManagerSpec;
+import com.facebook.fbreact.specs.NativeDialogManagerAndroidSpec;
+import com.facebook.fbreact.specs.NativeI18nManagerSpec;
+import com.facebook.fbreact.specs.NativeIntentAndroidSpec;
+import com.facebook.fbreact.specs.NativeLocationObserverSpec;
+import com.facebook.fbreact.specs.NativePermissionsAndroidSpec;
+import com.facebook.fbreact.specs.NativeSoundManagerSpec;
+import com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager;
+import java.util.HashMap;
+import java.util.Map;
+
+public class IgReactPackage$$ReactModuleInfoProvider implements C13570Tcq {
+    public final Map Bjl() {
+        HashMap A1E = AnonymousClass7TE.A1E();
+        SFW.A00("Appearance", "com.facebook.react.modules.appearance.AppearanceModule", A1E);
+        SFW.A00("AppState", "com.facebook.react.modules.appstate.AppStateModule", A1E);
+        SFW.A00(NativeAsyncSQLiteDBStorageSpec.NAME, "com.facebook.catalyst.modules.storage.AsyncStorageModule", A1E);
+        SFW.A00(NativeCameraRollManagerSpec.NAME, "com.facebook.catalyst.modules.cameraroll.CameraRollManager", A1E);
+        SFW.A00(NativeDialogManagerAndroidSpec.NAME, "com.facebook.react.modules.dialog.DialogModule", A1E);
+        SFW.A00("DatePickerAndroid", "com.facebook.fbreactmodules.datepicker.DatePickerDialogModule", A1E);
+        SFW.A00("FBLinkingAndroid", "com.facebook.catalyst.modules.linking.FBLinkingModule", A1E);
+        A1E.put("I18nAssets", new SFW("I18nAssets", "com.facebook.fbreact.i18n.FbReactI18nAssetsModule", true, false, true, true));
+        SFW.A00("I18n", "com.facebook.fbreact.i18n.FbReactI18nModule", A1E);
+        SFW.A00(NativeI18nManagerSpec.NAME, "com.facebook.react.modules.i18nmanager.I18nManagerModule", A1E);
+        SFW.A00("I18nResources", "com.facebook.i18n.react.impl.I18nResourcesModule", A1E);
+        SFW.A00("IGNativeColors", "com.instagram.react.modules.base.IgNativeColorsModule", A1E);
+        SFW.A00("Networking", "com.instagram.react.modules.base.IgNetworkingModule", A1E);
+        SFW.A00("Analytics", "com.instagram.react.modules.base.IgReactAnalyticsModule", A1E);
+        SFW.A00("IGMediaPickerNativeModule", "com.instagram.react.modules.product.IgReactMediaPickerNativeModule", A1E);
+        SFW.A00("IGBoostPostReactModule", "com.instagram.react.modules.product.IgReactBoostPostModule", A1E);
+        SFW.A00("IGReactCountryCodeRoute", "com.instagram.react.modules.product.IgReactCountryCodeRoute", A1E);
+        SFW.A00("IGCommentModerationReactModule", "com.instagram.react.modules.product.IgReactCommentModerationModule", A1E);
+        SFW.A00("CompassionResourceModule", "com.instagram.react.modules.product.IgReactCompassionResourceModule", A1E);
+        SFW.A00("IgDialog", "com.instagram.react.modules.base.IgReactDialogModule", A1E);
+        A1E.put("ExceptionsManager", new SFW("ExceptionsManager", "com.instagram.react.modules.exceptionmanager.IgReactExceptionManager", true, true, false, true));
+        SFW.A00("FBUserAgent", "com.instagram.react.modules.base.IgReactFBUserAgentModule", A1E);
+        SFW.A00("IGGeoGatingReactModule", "com.instagram.react.modules.product.IgReactGeoGatingModule", A1E);
+        SFW.A00("ImageLoader", "com.instagram.react.views.image.IgReactImageLoaderModule", A1E);
+        A1E.put("Navigation", new SFW("Navigation", "com.instagram.react.modules.navigator.IgReactNavigatorModule", false, true, false, true));
+        A1E.put("ReactPerformanceLogger", new SFW("ReactPerformanceLogger", "com.instagram.react.modules.base.IgReactPerformanceLoggerModule", false, true, false, true));
+        SFW.A00("IGPostInsightsReactModule", "com.instagram.react.modules.product.IgReactPostInsightsModule", A1E);
+        SFW.A00("IGPromoteMigrationReactModule", "com.instagram.react.modules.product.IgReactPromoteMigrationModule", A1E);
+        SFW.A00("IGPurchaseProtectionSheetNativeModule", "com.instagram.react.modules.product.IgReactPurchaseProtectionSheetModule", A1E);
+        SFW.A00("IGShoppingPickerModule", "com.instagram.react.modules.product.IgReactShoppingPickerModule", A1E);
+        SFW.A00("IGReactQE", "com.instagram.react.modules.base.IgReactQEModule", A1E);
+        SFW.A00("IGPurchaseExperienceBridgeModule", "com.instagram.react.modules.product.IgReactPurchaseExperienceBridgeModule", A1E);
+        SFW.A00("IGSharedPreferencesModule", "com.instagram.react.modules.base.IgSharedPreferencesModule", A1E);
+        SFW.A00(NativeIntentAndroidSpec.NAME, "com.facebook.react.modules.intent.IntentModule", A1E);
+        SFW.A00(NativeLocationObserverSpec.NAME, "com.facebook.react.modules.location.LocationModule", A1E);
+        SFW.A00(NativeAnimatedModuleSpec.NAME, "com.facebook.react.animated.NativeAnimatedModule", A1E);
+        SFW.A00("NetInfo", "com.facebook.catalyst.modules.netinfo.NetInfoModule", A1E);
+        SFW.A00(NativePermissionsAndroidSpec.NAME, "com.facebook.react.modules.permissions.PermissionsModule", A1E);
+        SFW.A00("RelayAPIConfig", "com.instagram.react.modules.base.RelayAPIConfigModule", A1E);
+        SFW.A00("StatusBarManager", "com.facebook.react.modules.statusbar.StatusBarModule", A1E);
+        SFW.A00(NativeSoundManagerSpec.NAME, "com.facebook.react.modules.sound.SoundManagerModule", A1E);
+        A1E.put(SwipeRefreshLayoutManager.REACT_CLASS, new SFW(SwipeRefreshLayoutManager.REACT_CLASS, "com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager", false, false, false, false));
+        SFW.A00("ToastAndroid", "com.facebook.react.modules.toast.ToastModule", A1E);
+        SFW.A00("Clipboard", "com.facebook.react.modules.clipboard.ClipboardModule", A1E);
+        SFW.A00("IGBloksNavigationReactModule", "com.instagram.react.modules.product.IgReactBloksNavigationModule", A1E);
+        SFW.A00("SegmentFetcher", "com.facebook.common.downloadondemand.js.interfaces.JsSegmentFetcherModule", A1E);
+        SFW.A00("BillingPTT", "com.facebook.fbreact.billingptt.ReactBillingPTT", A1E);
+        SFW.A00("IGFordDirectModule", "com.facebook.fbreact.igford.ReactIGFordDirectModule", A1E);
+        SFW.A00("SafeArea", "com.facebook.fbreact.safearea.ReactSafeArea", A1E);
+        return A1E;
+    }
+}

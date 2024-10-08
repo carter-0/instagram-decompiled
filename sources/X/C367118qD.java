@@ -1,0 +1,28 @@
+package X;
+
+/* renamed from: X.8qD  reason: invalid class name and case insensitive filesystem */
+public enum C367118qD implements AnonymousClass0Ac {
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_CHECK_START("crossposting_ig_to_fb_stories_client_eligibility_check_start"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_EARLY_RETURN_NO_TAGGED_SPONSORS("crossposting_ig_to_fb_stories_client_eligibility_early_return_no_tagged_sponsors"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_AUDIENCE_RESTRICTIONS("crossposting_ig_to_fb_STORIES_client_eligibility_fails_audience_restrictions"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_DESTINATION_FB_PAGE_ELIGIBILITY_CHECK("crossposting_ig_to_fb_stories_client_eligibility_fails_destination_fb_page_eligibility_check"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_PENDING_SPONSOR("crossposting_ig_to_fb_stories_client_eligibility_fails_pending_sponsor"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_PPL_AND_MUSIC("crossposting_ig_to_fb_stories_client_eligibility_fails_ppl_and_music"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_SPONSOR_COUNT("crossposting_ig_to_fb_stories_client_eligibility_fails_sponsor_count"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_FAILS_SPONSOR_ENABLED_CHECK("crossposting_ig_to_fb_stories_client_eligibility_fails_sponsor_enabled_check"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_PASSES_ALL("crossposting_ig_to_fb_stories_client_eligibility_passes_all"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_PASSES_NONEXPERIMENT_GATING("crossposting_ig_to_fb_stories_client_eligibility_passes_nonexperiment_gating"),
+    CROSSPOSTING_IG_TO_FB_STORIES_CLIENT_ELIGIBILITY_SPONSOR_ENABLED_FIELD_MISSING("crossposting_ig_to_fb_stories_client_eligibility_sponsor_enabled_field_missing"),
+    CROSSPOSTING_IG_TO_FB_STORIES_DESTINATION_QUERY_ERROR("crossposting_ig_to_fb_stories_destination_query_error"),
+    CROSSPOSTING_IG_TO_FB_STORIES_DESTINATION_QUERY_FIRED_WITHOUT_SKIPCACHE("crossposting_ig_to_fb_stories_destination_query_fired_without_skipcache"),
+    CROSSPOSTING_IG_TO_FB_STORIES_DESTINATION_QUERY_SKIPPED_NOT_IG_BC_ONBOARDED("crossposting_ig_to_fb_stories_destination_query_skipped_not_ig_bc_onboarded"),
+    CROSSPOSTING_IG_TO_FB_STORIES_DESTINATION_QUERY_SKIPPED_NOT_PASSING_EXPERIMENT_GATING("crossposting_ig_to_fb_stories_destination_query_skipped_not_passing_experiment_gating"),
+    CROSSPOSTING_IG_TO_FB_STORIES_DESTINATION_QUERY_UPDATED_RECEIVED_WITHOUT_SKIPCACHE("crossposting_ig_to_fb_stories_destination_query_updated_received_without_skipcache");
+    
+    public final String A00;
+
+    /* access modifiers changed from: public */
+    C367118qD(String str) {
+        this.A00 = str;
+    }
+}

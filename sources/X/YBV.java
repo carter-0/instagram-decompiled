@@ -1,0 +1,6 @@
+package X;
+
+public interface YBV {
+    public static final C21503Xd8[] A00 = {new C21503Xd8("_id", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, true, true, false, false), new C21503Xd8("user_alias_id", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8(XDX.A00(9, 10, 68), "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("optimistic_session_id", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("groupish_id", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("start_time_millis", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("expiration_time_millis", "INTEGER", (String) null, (String) null, (String) null, (String) null, (String) null, false, false, false, false, false), new C21503Xd8("message_id", "TEXT", (String) null, (String) null, (String) null, (String) null, (String) null, true, false, false, false, false)};
+    public static final C21386XZt[] A01 = new C21386XZt[0];
+}

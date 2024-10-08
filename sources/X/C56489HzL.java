@@ -1,0 +1,17 @@
+package X;
+
+import java.util.List;
+
+/* renamed from: X.HzL  reason: case insensitive filesystem */
+public final class C56489HzL {
+    public static final List A00;
+    public static final List A01;
+    public static final /* synthetic */ C56489HzL A02 = new Object();
+
+    /* JADX WARNING: type inference failed for: r0v0, types: [java.lang.Object, X.HzL] */
+    static {
+        List A1P = 0sr.A1P(new C233162v9[]{C233162v9.SEEN_STATE, C233162v9.CAPTION_CLICK, C233162v9.COMMENT_BUTTON_CLICK, C233162v9.CTA_CLICK, C233162v9.GESTURE, C233162v9.HASHTAG_CLICK, C233162v9.LIKE_CLICK, C233162v9.MEDIA_TAP, C233162v9.PROFILE_TAP, C233162v9.SAVE_CLICK, C233162v9.SEE_TRANSLATION, C233162v9.SHARE_BUTTON_CLICK, C233162v9.TAG_CLICK, C233162v9.UNLIKE_CLICK, C233162v9.USER_TAG_CLICK, C233162v9.PRODUCT_TAG_CLICK, C233162v9.XOUT, C233162v9.PROFILE_USERNAME_CAPTION_TAP, C233162v9.VIEW_ALL_COMMENTS_TAP, C233162v9.TAP_AND_HOLD, C233162v9.VIDEO_TAP, C233162v9.AFI, C233162v9.IAB_NO_BOUNCE});
+        A00 = A1P;
+        A01 = C51969G9p.A0v(A1P, 1);
+    }
+}

@@ -1,0 +1,101 @@
+package X;
+
+import com.instagram.realtimeclient.RealtimeSubscription;
+
+/* renamed from: X.TpH  reason: case insensitive filesystem */
+public enum C14068TpH {
+    FEED(RealtimeSubscription.GRAPHQL_MQTT_VERSION),
+    PROFILE("2"),
+    COMMENTS("3"),
+    STORY("4"),
+    DISCOVER("5"),
+    POST("6"),
+    DIRECT_MESSAGES("7"),
+    LIVE("8"),
+    PRODUCT("9"),
+    IN_APP_BROWSER("10"),
+    HASHTAGS("11"),
+    VIDEO_CALL("12"),
+    AR_EFFECT_STORIES_ATTRIBUTION_BOTTOM_SHEET("13"),
+    AR_EFFECT_FEED_ATTRIBUTION_BOTTOM_SHEET("14"),
+    AR_EFFECT_PROFILE_PREVIEW("15"),
+    AR_EFFECT_DISCOVERY_PREVIEW("16"),
+    AR_EFFECT_CAMERA_TRAY("17"),
+    VIDEO_CALL_COWATCH_LOCAL_MEDIA("18"),
+    STORY_COMMENTS("19"),
+    IG_TV_VIEWER("21"),
+    DIRECT_THREAD("22"),
+    CLIPS_SONG_PAGE("23"),
+    CLIPS_POST("24"),
+    CLIPS_EFFECT_PAGE("25"),
+    FUNDRAISER("26"),
+    GUIDE("27"),
+    ROOMS("28"),
+    ENCRYPTED_DIRECT_MESSAGE("30"),
+    SERVICES("31"),
+    COMMERCE_FB_REVIEW("32"),
+    COMMERCE_IG_REVIEW("33"),
+    COMMERCE_REVIEW_RESPONSE("34"),
+    IG_SHOP_TAB_MAIN_FEED("35"),
+    AR_EFFECT_VIDEO_CALLING("37"),
+    COMMERCE_FB_QUESTION("38"),
+    COMMERCE_IG_QUESTION("39"),
+    COMMERCE_PLATFORM_ANSWER("40"),
+    IG_DIRECT_ENCRYPTED_THREAD("41"),
+    COMMERCE_EXTERNAL_QUESTION("42"),
+    COMMERCE_EXTERNAL_ANSWER("43"),
+    CLEAR_HISTORY("44"),
+    DISCOVERY_MAP("45"),
+    IG_AR_ADS_CAMERA("47"),
+    CANVAS("49"),
+    CLIPS_PROMPT_PAGE("50"),
+    DIGITAL_WALLET("51"),
+    NOTIFICATION_MESSAGES_ADMIN_TEXT("52"),
+    NOTE("55"),
+    IGD_PROMPT_GRID_VIEW("58"),
+    CLIPS_THIRD_PARTY_APP_PAGE("59"),
+    IGD_SHARED_STACK_GRID_VIEW("60"),
+    IGD_SHARED_STACK_INTERMEDIATE_VIEW("61"),
+    IGD_ENCRYPTED_DIRECT_MESSAGE_VANISH("62"),
+    IGD_ENCRYPTED_DIRECT_THREAD_VANISH("63"),
+    BCN_POST("64"),
+    BCN_USER("65"),
+    IG_FEED_PROMPT_PAGE("66"),
+    IG_DIRECT_STICKERS_TRAY("67"),
+    IG_REUSE_TEXT_PAGE("68"),
+    IG_EVENT("69"),
+    IG_STORIES_STICKER_TRAY("70"),
+    IG_STORIES_MAGIC_MOD("71"),
+    IG_TEXT_APP_SERP("72"),
+    GEN_AI_RETEXTURING("74"),
+    IG_COLLECTION("75"),
+    BCN_POST_TIFU("76"),
+    IG_SCHOOLS_PAGE("77"),
+    IGD_ENCRYPTED_DIRECT_MESSAGE_INSTAMADILLO("78"),
+    IGD_ENCRYPTED_DIRECT_THREAD_INSTAMADILLO("79"),
+    IG_FRIEND_MAP("80"),
+    IG_CLIPS_SPIN("81"),
+    IGD_PROMPT_V2_GRID_VIEW("82"),
+    IGD_THEME_PICKER("83"),
+    IGD_THEME_PREVIEW("84"),
+    FEDI_POST("85"),
+    FEDI_USER("86"),
+    WORLD_PAGES("87");
+    
+    public final String A00;
+
+    /* access modifiers changed from: public */
+    static {
+        C14068TpH[] tpHArr;
+        A01 = 0oU.A00(tpHArr);
+    }
+
+    public final String toString() {
+        return this.A00;
+    }
+
+    /* access modifiers changed from: public */
+    C14068TpH(String str) {
+        this.A00 = str;
+    }
+}

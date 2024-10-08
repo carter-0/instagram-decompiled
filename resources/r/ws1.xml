@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:left="0dp" android:right="0dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"/>
+            <solid android:color="@color/igds_creation_tools_purple"/>
+        </shape>
+    </item>
+    <item android:width="@dimen/abc_control_corner_material" android:left="@dimen/afi_margin_top" android:top="@dimen/abc_select_dialog_padding_start_material" android:bottom="@dimen/abc_select_dialog_padding_start_material">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/canvas_bottom_sheet_description_text_color"/>
+            <corners android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"/>
+        </shape>
+    </item>
+    <item android:gravity="end" android:width="@dimen/abc_control_corner_material" android:top="@dimen/abc_select_dialog_padding_start_material" android:right="@dimen/afi_margin_top" android:bottom="@dimen/abc_select_dialog_padding_start_material">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/canvas_bottom_sheet_description_text_color"/>
+            <corners android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"/>
+        </shape>
+    </item>
+</layer-list>

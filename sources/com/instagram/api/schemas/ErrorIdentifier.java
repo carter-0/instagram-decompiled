@@ -1,0 +1,116 @@
+package com.instagram.api.schemas;
+
+import X.0oU;
+import X.DE7;
+import X.DbY;
+import X.Dbb;
+import android.os.Parcel;
+import android.os.Parcelable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public enum ErrorIdentifier implements Parcelable {
+    UNRECOGNIZED("ErrorIdentifier_unspecified"),
+    ACCESS_TOKEN_NULL("ACCESS_TOKEN_NULL"),
+    ADVERTISER_SANCTIONED("ADVERTISER_SANCTIONED"),
+    CANCEL_CALL_CENTER_BOOKING_ERROR("CANCEL_CALL_CENTER_BOOKING_ERROR"),
+    CREATE_DRAFT_PROMOTION_ERROR("CREATE_DRAFT_PROMOTION_ERROR"),
+    CREATE_LEAD_FORM_ERROR("CREATE_LEAD_FORM_ERROR"),
+    CREATE_PROMOTION_ERROR("CREATE_PROMOTION_ERROR"),
+    CREATE_UNIFIED_AUDIENCE_ERROR("CREATE_UNIFIED_AUDIENCE_ERROR"),
+    CREATION_VALIDATION_ERROR("CREATION_VALIDATION_ERROR"),
+    DELETE_DRAFT_PROMOTION_ERROR("DELETE_DRAFT_PROMOTION_ERROR"),
+    DELETE_PROMOTION_ERROR("DELETE_PROMOTION_ERROR"),
+    DELETE_UNIFIED_AUDIENCE_ERROR("DELETE_UNIFIED_AUDIENCE_ERROR"),
+    DEPRECATED_ENDPOINT_ERROR("DEPRECATED_ENDPOINT_ERROR"),
+    DEPRECATED_INTERESTS_WARNING("DEPRECATED_INTERESTS_WARNING"),
+    DUMMY_ERROR_S265203("DUMMY_ERROR_S265203"),
+    EDIT_PROMOTION_ERROR("EDIT_PROMOTION_ERROR"),
+    EDIT_UNIFIED_AUDIENCE_ERROR("EDIT_UNIFIED_AUDIENCE_ERROR"),
+    ENUM_MAPPING_EXCEPTION("ENUM_MAPPING_EXCEPTION"),
+    ESTIMATE_AUDIENCE_POTENTIAL_REACH_ERROR("ESTIMATE_AUDIENCE_POTENTIAL_REACH_ERROR"),
+    FACEBOOK_COPY_NOT_READY_ERROR("FACEBOOK_COPY_NOT_READY_ERROR"),
+    FB_ACCOUNT_INVALID("FB_ACCOUNT_INVALID"),
+    FETCH_ALL_UNIFIED_AUDIENCES_ERROR("FETCH_ALL_UNIFIED_AUDIENCES_ERROR"),
+    FETCH_BUSINESS_PERSON_ACCESS_TOKEN_ERROR("FETCH_BUSINESS_PERSON_ACCESS_TOKEN_ERROR"),
+    FETCH_INFERRED_UNIFIED_AUDIENCE_ERROR("FETCH_INFERRED_UNIFIED_AUDIENCE_ERROR"),
+    FETCH_PRIMARY_UNIFIED_AUDIENCE_ERROR("FETCH_PRIMARY_UNIFIED_AUDIENCE_ERROR"),
+    GET_PAGE_WELCOME_MESSAGE_ERROR("GET_PAGE_WELCOME_MESSAGE_ERROR"),
+    GRAPHQL_QUERY_ERROR("GRAPHQL_QUERY_ERROR"),
+    GRAPHQL_QUERY_TIMEOUT_ERROR("GRAPHQL_QUERY_TIMEOUT_ERROR"),
+    GRAPHQL_QUERY_UNSUCCESSFUL_ERROR("GRAPHQL_QUERY_UNSUCCESSFUL_ERROR"),
+    IABP_CREATION_FAILURE("IABP_CREATION_FAILURE"),
+    INELIGIBLE_MEDIA_ERROR("INELIGIBLE_MEDIA_ERROR"),
+    MEDIA_VIOLATE_PROFANITY_POLICY_ERROR("MEDIA_VIOLATE_PROFANITY_POLICY_ERROR"),
+    NETWORK_CONNECTION_ERROR("NETWORK_CONNECTION_ERROR"),
+    PARSING_ERROR("PARSING_ERROR"),
+    PAYMENT_CREDIT_CARD_EXPIRED_ERROR("PAYMENT_CREDIT_CARD_EXPIRED_ERROR"),
+    PAYMENT_CREDIT_CARD_EXPIRING_ERROR("PAYMENT_CREDIT_CARD_EXPIRING_ERROR"),
+    PAYMENT_NO_AVAILABLE_PAYMENT_METHOD_ERROR("PAYMENT_NO_AVAILABLE_PAYMENT_METHOD_ERROR"),
+    PAYMENT_PREPAY_LOW_BALANCE_ERROR("PAYMENT_PREPAY_LOW_BALANCE_ERROR"),
+    PAYMENT_PREPAY_ZERO_BALANCE_ERROR("PAYMENT_PREPAY_ZERO_BALANCE_ERROR"),
+    SET_GEOLOCATION_INFERRED_UNIFIED_AUDIENCE_ERROR("SET_GEOLOCATION_INFERRED_UNIFIED_AUDIENCE_ERROR"),
+    SUBMIT_CALL_CENTER_BOOKING_ERROR("SUBMIT_CALL_CENTER_BOOKING_ERROR"),
+    UNKNOWN_ERROR("UNKNOWN_ERROR"),
+    VALIDATE_BUSINESS_PERSON_ACCESS_TOKEN_ERROR("VALIDATE_BUSINESS_PERSON_ACCESS_TOKEN_ERROR"),
+    ACCOUNT_SPEND_LIMIT_REACHED("account_spend_limit_reached"),
+    AD_ACCOUNT_DISABLED_ELIGIBLE_FOR_SELF_RESOLUTION("ad_account_disabled_eligible_for_self_resolution"),
+    AD_ACCOUNT_DISABLED_FOR_ADS_INTEGRITY_POLICY("ad_account_disabled_for_ads_integrity_policy"),
+    AD_ACCOUNT_DISABLED_FOR_PAYMENT_RISK("ad_account_disabled_for_payment_risk"),
+    AD_ACCOUNT_NOT_ACTIVE("ad_account_not_active"),
+    AD_ACCOUNT_UNSETTLED("ad_account_unsettled"),
+    ADS_FREE_SUBSCRIPTION("ads_free_subscription"),
+    ALREADY_PROMOTED("already_promoted"),
+    BASIC_ADS_TIER("basic_ads_tier"),
+    BUSINESS_ACCOUNT_BANHAMMERED("business_account_banhammered"),
+    BUSINESS_ACCOUNT_BANHAMMERED_AND_BUSINESS_VERIFICATION_REQUIRED("business_account_banhammered_and_business_verification_required"),
+    BUSINESS_ACCOUNT_BANHAMMERED_BY_ACE("business_account_banhammered_by_ace"),
+    BUSINESS_ACCOUNT_BANHAMMERED_BY_COMMERCE_DNR("business_account_banhammered_by_commerce_dnr"),
+    BUSINESS_TWO_FAC_ENABLED("business_two_fac_enabled"),
+    CURRENT_USER_NO_PERMISSION_TO_BOOST_MEDIA("current_user_no_permission_to_boost_media"),
+    CURRENT_USER_NOT_MEDIA_OWNER("current_user_not_media_owner"),
+    GENERIC_ADS_TIER("generic_ads_tier"),
+    LESS_PERSONALIZED_ADS_TIER("less_personalized_ads_tier"),
+    NO_ACCESS_TO_AD_ACCOUNT("no_access_to_ad_account"),
+    NO_DEFAULT_AD_ACCOUNT("no_default_ad_account"),
+    NO_LINKED_PAGE("no_linked_page"),
+    NOT_PAGE_ADVERTISER("not_page_advertiser"),
+    PAGE_NOT_CONNECTED("page_not_connected"),
+    PAGE_NOT_CREATED("page_not_created"),
+    PAGE_NOT_OWNED("page_not_owned"),
+    PAGE_NOT_PUBLISHED("page_not_published");
+    
+    public static final Map A01 = null;
+    public static final Parcelable.Creator CREATOR = null;
+    public final String A00;
+
+    public final int describeContents() {
+        return 0;
+    }
+
+    /* access modifiers changed from: public */
+    static {
+        int i;
+        ErrorIdentifier[] errorIdentifierArr;
+        A02 = 0oU.A00(errorIdentifierArr);
+        LinkedHashMap linkedHashMap = new LinkedHashMap(DbY.A00(r4));
+        for (ErrorIdentifier errorIdentifier : values()) {
+            linkedHashMap.put(errorIdentifier.A00, errorIdentifier);
+        }
+        A01 = linkedHashMap;
+        CREATOR = new DE7(60);
+    }
+
+    public final String toString() {
+        return this.A00;
+    }
+
+    /* access modifiers changed from: public */
+    ErrorIdentifier(String str) {
+        this.A00 = str;
+    }
+
+    public final void writeToParcel(Parcel parcel, int i) {
+        Dbb.A0q(parcel, this);
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="direct_composer_background_corner_radius">19dp</dimen>
+    <dimen name="direct_in_thread_composer_row_height">38dp</dimen>
+    <dimen name="direct_in_thread_composer_side_margin">12dp</dimen>
+    <dimen name="direct_in_thread_composer_top_margin">6dp</dimen>
+    <dimen name="instagram_extended_action_bar_height">52dp</dimen>
+    <dimen name="photo_grid_spacing">1px</dimen>
+    <dimen name="tab_bar_height_whiteout">38dp</dimen>
+</resources>

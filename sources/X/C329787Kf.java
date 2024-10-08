@@ -1,0 +1,98 @@
+package X;
+
+import android.app.Activity;
+import android.content.Context;
+import android.widget.FrameLayout;
+import com.instagram.common.session.UserSession;
+import com.instagram.common.typedurl.ImageUrl;
+
+/* renamed from: X.7Kf  reason: invalid class name and case insensitive filesystem */
+public final class C329787Kf {
+    public final Activity A00;
+    public final Context A01;
+    public final FrameLayout A02;
+    public final AnonymousClass0iw A03;
+    public final UserSession A04;
+    public final ImageUrl A05;
+    public final C314466iJ A06;
+    public final C332827Wn A07;
+    public final C329147Ht A08;
+    public final C329087Hn A09;
+    public final C329107Hp A0A;
+    public final C329117Hq A0B;
+    public final C329127Hr A0C;
+    public final C329137Hs A0D;
+    public final C254783t2 A0E;
+    public final String A0F;
+    public final String A0G;
+    public final AnonymousClass0eM A0H = AnonymousClass0eN.A01(new C377229La(this, 11));
+    public final AnonymousClass0eM A0I = AnonymousClass0eN.A01(new C377229La(this, 12));
+    public final AnonymousClass0eM A0J = AnonymousClass0eN.A01(new C377229La(this, 13));
+    public final AnonymousClass0eM A0K = AnonymousClass0eN.A01(new C377229La(this, 14));
+    public final AnonymousClass0eM A0L = AnonymousClass0eN.A01(new C377229La(this, 15));
+    public final AnonymousClass0eM A0M = AnonymousClass0eN.A01(new C377229La(this, 16));
+    public final AnonymousClass0eM A0N = AnonymousClass0eN.A01(new C377229La(this, 17));
+    public final AnonymousClass0eM A0O = AnonymousClass0eN.A01(new C377229La(this, 18));
+    public final AnonymousClass0eM A0P = AnonymousClass0eN.A01(new C377229La(this, 19));
+    public final AnonymousClass0eM A0Q = AnonymousClass0eN.A01(new C377229La(this, 20));
+    public final C62320sa A0R;
+    public final C62320sa A0S;
+    public final boolean A0T;
+    public final boolean A0U;
+    public final boolean A0V;
+    public final boolean A0W;
+    public final boolean A0X;
+    public final boolean A0Y;
+
+    public C329787Kf(Activity activity, Context context, FrameLayout frameLayout, AnonymousClass0iw r23, UserSession userSession, ImageUrl imageUrl, C314466iJ r26, C332827Wn r27, C329147Ht r28, C329087Hn r29, C329107Hp r30, C329117Hq r31, C329127Hr r32, C329137Hs r33, C254783t2 r34, String str, String str2, C62320sa r37, C62320sa r38, boolean z, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6) {
+        Context context2 = context;
+        0qQ.A0B(context2, 2);
+        AnonymousClass0iw r16 = r23;
+        0qQ.A0B(r16, 4);
+        FrameLayout frameLayout2 = frameLayout;
+        0qQ.A0B(frameLayout2, 5);
+        C254783t2 r6 = r34;
+        0qQ.A0B(r6, 6);
+        C329087Hn r11 = r29;
+        0qQ.A0B(r11, 9);
+        C329127Hr r8 = r32;
+        0qQ.A0B(r8, 10);
+        C329107Hp r10 = r30;
+        0qQ.A0B(r10, 11);
+        C329117Hq r9 = r31;
+        0qQ.A0B(r9, 12);
+        C329137Hs r7 = r33;
+        0qQ.A0B(r7, 13);
+        C329147Ht r12 = r28;
+        0qQ.A0B(r12, 14);
+        C314466iJ r14 = r26;
+        0qQ.A0B(r14, 15);
+        C332827Wn r13 = r27;
+        0qQ.A0B(r13, 24);
+        this.A04 = userSession;
+        this.A01 = context2;
+        this.A00 = activity;
+        this.A03 = r16;
+        this.A02 = frameLayout2;
+        this.A0E = r6;
+        this.A0X = z;
+        this.A0F = str;
+        this.A09 = r11;
+        this.A0C = r8;
+        this.A0A = r10;
+        this.A0B = r9;
+        this.A0D = r7;
+        this.A08 = r12;
+        this.A06 = r14;
+        this.A0R = r37;
+        this.A0T = z2;
+        this.A0Y = z3;
+        this.A0U = z4;
+        this.A0G = str2;
+        this.A05 = imageUrl;
+        this.A0V = z5;
+        this.A0W = z6;
+        this.A07 = r13;
+        this.A0S = r38;
+    }
+}

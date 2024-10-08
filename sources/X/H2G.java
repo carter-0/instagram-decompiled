@@ -1,0 +1,9 @@
+package X;
+
+public final class H2G extends C247303g7 {
+    public final H2R A00;
+
+    public H2G(H2R h2r) {
+        this.A00 = h2r;
+    }
+}

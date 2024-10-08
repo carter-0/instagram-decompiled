@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="ad_services_config">r/07w.xml</xml>
+    <xml name="authenticator">r/07x.xml</xml>
+    <xml name="backup_rules">r/07v.xml</xml>
+    <xml name="direct_app_widget_info">r/07y.xml</xml>
+    <xml name="fb_network_security_config">r/07z.xml</xml>
+    <xml name="file_provider_paths">r/070.xml</xml>
+    <xml name="searchable">r/071.xml</xml>
+    <xml name="shortcuts">r/072.xml</xml>
+</resources>

@@ -1,0 +1,12 @@
+.root_relative
+classes2.dex d65656a07392f290b69a82b15c4729bbd761b3e1 secondary.dex01.Canary
+classes3.dex 8cf3d2b339d36264eef01ad1dadd0967f00977fe secondary.dex02.Canary
+classes4.dex a7af220d12762380833c224498803ea53898b531 secondary.dex03.Canary
+classes5.dex 63551107b655c53be8fbf10ef53cbce1d80cdbd1 secondary.dex04.Canary
+classes6.dex 79f5c8fbeb60d25bb1210404dd8d37200728c060 secondary.dex05.Canary
+classes7.dex a329d3e7f4813d457deeec629344c6e94b8eecc3 secondary.dex06.Canary
+classes8.dex f1b1e8b408cc95cf84ddcfe575290270e3951dd2 secondary.dex07.Canary
+classes9.dex 3c5c1c38d6f9f3e6d2917b0e859b50f5180b64eb secondary.dex08.Canary
+classes10.dex d71300bddb10672cb794ac754f6d9cb9a0e3d39b secondary.dex09.Canary
+classes11.dex 3d79cc6ad28b7d232b829135a34a8cf39df17859 secondary.dex10.Canary
+classes12.dex 270711d5be4e8c5b0e9dbd6bfc4459c751e5f490 secondary.dex11.Canary

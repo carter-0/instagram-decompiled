@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/gradient_dark"/>
+            <stroke android:width="6dp" android:color="@color/black"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/instagram_microphone_off_outline_44" android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp"/>
+</layer-list>

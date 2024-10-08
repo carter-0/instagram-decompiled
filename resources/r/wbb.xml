@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <stroke android:width="1px" android:color="?attr/igds_color_stroke"/>
+    <corners android:radius="4dp"/>
+    <padding android:left="1px" android:top="1px" android:right="1px" android:bottom="1px"/>
+</shape>

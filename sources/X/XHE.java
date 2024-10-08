@@ -1,0 +1,23 @@
+package X;
+
+public final class XHE extends C391749ta {
+    public final XUJ A00;
+
+    public final boolean equals(Object obj) {
+        return this == obj || ((obj instanceof XHE) && 0qQ.A0K(this.A00, ((XHE) obj).A00));
+    }
+
+    public final int hashCode() {
+        return this.A00.hashCode();
+    }
+
+    public XHE(XUJ xuj) {
+        this.A00 = xuj;
+    }
+
+    public final String toString() {
+        StringBuilder A1A = AnonymousClass7TE.A1A();
+        A1A.append(C273654mx.A00(217));
+        return AnonymousClass7TG.A0n(this.A00, A1A);
+    }
+}

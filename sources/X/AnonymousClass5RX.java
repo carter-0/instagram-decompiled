@@ -1,0 +1,81 @@
+package X;
+
+/* renamed from: X.5RX  reason: invalid class name */
+public abstract class AnonymousClass5RX {
+    public static final C285385Rc A00;
+    public static final C285385Rc A01;
+    public static final C285385Rc A02;
+    public static final C285375Rb A03;
+    public static final C285375Rb A04;
+    public static final C285375Rb A05;
+    public static final C285375Rb A06;
+    public static final C285375Rb A07;
+    public static final C285375Rb A08;
+    public static final C285375Rb A09;
+    public static final C285375Rb A0A;
+    public static final C285375Rb A0B;
+    public static final C285375Rb A0C;
+    public static final C285375Rb A0D;
+    public static final C285375Rb A0E;
+    public static final C285375Rb A0F;
+    public static final C285375Rb A0G;
+    public static final C285375Rb A0H;
+    public static final float[] A0I;
+    public static final float[] A0J;
+    public static final C285385Rc[] A0K;
+    public static final AnonymousClass5RY A0L;
+    public static final AnonymousClass5RY A0M;
+
+    static {
+        float[] fArr = {0.64f, 0.33f, 0.3f, 0.6f, 0.15f, 0.06f};
+        A0J = fArr;
+        float[] fArr2 = {0.67f, 0.33f, 0.21f, 0.71f, 0.14f, 0.08f};
+        A0I = fArr2;
+        AnonymousClass5RY r7 = new AnonymousClass5RY(2.4d, 0.9478672985781991d, 0.05213270142180095d, 0.07739938080495357d, 0.04045d);
+        A0M = r7;
+        AnonymousClass5RY r31 = new AnonymousClass5RY(2.2d, 0.9478672985781991d, 0.05213270142180095d, 0.07739938080495357d, 0.04045d);
+        A0L = r31;
+        C285365Ra r21 = AnonymousClass5RZ.A03;
+        C285365Ra r9 = r21;
+        float[] fArr3 = fArr;
+        C285375Rb r72 = new C285375Rb(r7, r9, "sRGB IEC61966-2.1", fArr3, 0);
+        A0G = r72;
+        C285375Rb r8 = new C285375Rb(r9, "sRGB IEC61966-2.1 (Linear)", fArr3, 1.0d, 0.0f, 1.0f, 1);
+        A0C = r8;
+        C285375Rb r17 = new C285375Rb(new C285485Rm(), new C285495Rn(), r7, r21, "scRGB-nl IEC 61966-2-2:2003", fArr, (float[]) null, -0.799f, 2.399f, 2);
+        A0A = r17;
+        C285375Rb r22 = new C285375Rb(r21, "scRGB IEC 61966-2-2:2003", fArr, 1.0d, -0.5f, 7.499f, 3);
+        A0B = r22;
+        C285375Rb r11 = new C285375Rb(new AnonymousClass5RY(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d), r21, "Rec. ITU-R BT.709-5", new float[]{0.64f, 0.33f, 0.3f, 0.6f, 0.15f, 0.06f}, 4);
+        A07 = r11;
+        C285375Rb r12 = new C285375Rb(new AnonymousClass5RY(2.2222222222222223d, 0.9096697898662786d, 0.09033021013372146d, 0.2222222222222222d, 0.08145d), r21, "Rec. ITU-R BT.2020-1", new float[]{0.708f, 0.292f, 0.17f, 0.797f, 0.131f, 0.046f}, 5);
+        A06 = r12;
+        C285375Rb r222 = new C285375Rb(new C285365Ra(0.314f, 0.351f), "SMPTE RP 431-2-2007 DCI (P3)", new float[]{0.68f, 0.32f, 0.265f, 0.69f, 0.15f, 0.06f}, 2.6d, 0.0f, 1.0f, 6);
+        A08 = r222;
+        C285375Rb r14 = new C285375Rb(r7, r21, "Display P3", new float[]{0.68f, 0.32f, 0.265f, 0.69f, 0.15f, 0.06f}, 7);
+        A09 = r14;
+        C285375Rb r15 = new C285375Rb(new AnonymousClass5RY(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d), AnonymousClass5RZ.A00, "NTSC (1953)", fArr2, 8);
+        A0D = r15;
+        C285375Rb r19 = new C285375Rb(new AnonymousClass5RY(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d), r21, "SMPTE-C RGB", new float[]{0.63f, 0.34f, 0.31f, 0.595f, 0.155f, 0.07f}, 9);
+        A0F = r19;
+        C285375Rb r223 = new C285375Rb(r21, "Adobe RGB (1998)", new float[]{0.64f, 0.33f, 0.21f, 0.71f, 0.15f, 0.06f}, 2.2d, 0.0f, 1.0f, 10);
+        A05 = r223;
+        C285375Rb r32 = new C285375Rb(new AnonymousClass5RY(1.8d, 1.0d, 0.0d, 0.0625d, 0.031248d), AnonymousClass5RZ.A01, "ROMM RGB ISO 22028-2:2013", new float[]{0.7347f, 0.2653f, 0.1596f, 0.8404f, 0.0366f, 1.0E-4f}, 11);
+        A0E = r32;
+        C285365Ra r23 = AnonymousClass5RZ.A02;
+        C285375Rb r224 = new C285375Rb(r23, "SMPTE ST 2065-1:2012 ACES", new float[]{0.7347f, 0.2653f, 0.0f, 1.0f, 1.0E-4f, -0.077f}, 1.0d, -65504.0f, 65504.0f, 12);
+        A03 = r224;
+        C285375Rb r225 = new C285375Rb(r23, "Academy S-2014-004 ACEScg", new float[]{0.713f, 0.293f, 0.165f, 0.83f, 0.128f, 0.044f}, 1.0d, -65504.0f, 65504.0f, 13);
+        A04 = r225;
+        C285385Rc r4 = new C285385Rc(14, "Generic XYZ", C285435Rh.A03);
+        A01 = r4;
+        long j = C285435Rh.A01;
+        C285385Rc r3 = new C285385Rc(15, "Generic L*a*b*", j);
+        A00 = r3;
+        C285375Rb r232 = new C285375Rb(r31, r21, "None", fArr, 16);
+        A0H = r232;
+        C285385Rc r0 = new C285385Rc(17, "Oklab", j);
+        A02 = r0;
+        A0K = new C285385Rc[]{r72, r8, r17, r22, r11, r12, r222, r14, r15, r19, r223, r32, r224, r225, r4, r3, r232, r0};
+    }
+}

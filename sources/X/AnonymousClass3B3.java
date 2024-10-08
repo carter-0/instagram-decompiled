@@ -1,0 +1,33 @@
+package X;
+
+import android.graphics.Canvas;
+import android.graphics.Rect;
+import android.view.View;
+import androidx.recyclerview.widget.RecyclerView;
+
+/* renamed from: X.3B3  reason: invalid class name */
+public abstract class AnonymousClass3B3 {
+    @Deprecated
+    public void onDraw(Canvas canvas, RecyclerView recyclerView) {
+    }
+
+    @Deprecated
+    public void onDrawOver(Canvas canvas, RecyclerView recyclerView) {
+    }
+
+    public void getItemOffsets(Rect rect, View view, RecyclerView recyclerView, AnonymousClass3AW r5) {
+        view.getLayoutParams();
+        rect.set(0, 0, 0, 0);
+    }
+
+    public void onDraw(Canvas canvas, RecyclerView recyclerView, AnonymousClass3AW r3) {
+    }
+
+    public void onDrawOver(Canvas canvas, RecyclerView recyclerView, AnonymousClass3AW r3) {
+    }
+
+    @Deprecated
+    public void getItemOffsets(Rect rect, int i, RecyclerView recyclerView) {
+        rect.set(0, 0, 0, 0);
+    }
+}

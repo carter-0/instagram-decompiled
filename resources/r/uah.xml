@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_1"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_2"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_3"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_4"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_5"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_6"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_7"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_8"/>
+    <item android:duration="@integer/direct_sparkler_pause_cycle_duration_ms" android:drawable="@drawable/fuse_9"/>
+</animation-list>

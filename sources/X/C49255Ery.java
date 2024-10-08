@@ -1,0 +1,29 @@
+package X;
+
+import android.net.Uri;
+import com.instagram.common.session.UserSession;
+import com.instagram.wonderwall.model.Destination;
+import com.instagram.wonderwall.model.WallLaunchConfig;
+
+/* renamed from: X.Ery  reason: case insensitive filesystem */
+public abstract class C49255Ery {
+    public static final WallLaunchConfig A00(Uri uri, UserSession userSession) {
+        String str;
+        0qQ.A0B(userSession, 1);
+        if (uri == null || (str = uri.getQueryParameter("wall_owner_id")) == null) {
+            str = userSession.A06;
+        }
+        Destination destination = null;
+        if (uri != null) {
+            String queryParameter = uri.getQueryParameter("post_id");
+            String queryParameter2 = uri.getQueryParameter("media_id");
+            String queryParameter3 = uri.getQueryParameter("destination");
+            if (queryParameter3 != null && queryParameter3.hashCode() == -1352294148 && queryParameter3.equals("create")) {
+                destination = new Destination.Composer(queryParameter2);
+            } else if (queryParameter != null) {
+                destination = new Destination.Preview(queryParameter);
+            }
+        }
+        return new WallLaunchConfig(destination, str);
+    }
+}

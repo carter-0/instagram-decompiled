@@ -1,0 +1,43 @@
+package X;
+
+import android.text.Layout;
+import android.text.Spannable;
+import android.text.method.LinkMovementMethod;
+import android.text.method.Touch;
+import android.text.style.ClickableSpan;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.TextView;
+import com.instagram.android.R;
+
+public final class U23 extends LinkMovementMethod {
+    public static final U23 A00 = new LinkMovementMethod();
+
+    public final boolean onTouchEvent(TextView textView, Spannable spannable, MotionEvent motionEvent) {
+        View view;
+        boolean A1b = C51973G9u.A1b(textView, spannable, motionEvent);
+        int action = motionEvent.getAction();
+        int x = (((int) motionEvent.getX()) - textView.getTotalPaddingLeft()) + textView.getScrollX();
+        int y = (((int) motionEvent.getY()) - textView.getTotalPaddingTop()) + textView.getScrollY();
+        Layout layout = textView.getLayout();
+        if (layout != null) {
+            int offsetForHorizontal = layout.getOffsetForHorizontal(layout.getLineForVertical(y), (float) x);
+            ClickableSpan[] clickableSpanArr = (ClickableSpan[]) spannable.getSpans(offsetForHorizontal, offsetForHorizontal, ClickableSpan.class);
+            0qQ.A0A(clickableSpanArr);
+            if (clickableSpanArr.length == 0) {
+                Object tag = textView.getTag(R.id.tag_span_touch_key);
+                if ((tag instanceof View) && (view = (View) tag) != null) {
+                    view.onTouchEvent(motionEvent);
+                }
+                return false;
+            }
+            if (action != 0) {
+                if (action == A1b && textView.hasWindowFocus()) {
+                    clickableSpanArr[0].onClick(textView);
+                }
+            }
+            return A1b;
+        }
+        return Touch.onTouchEvent(textView, spannable, motionEvent);
+    }
+}

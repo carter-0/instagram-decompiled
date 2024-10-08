@@ -1,0 +1,9 @@
+package X;
+
+public final class FVK implements C51897G6n {
+    public final void onFailure(Throwable th) {
+    }
+
+    public final void onSuccess() {
+    }
+}

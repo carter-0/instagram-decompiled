@@ -1,0 +1,91 @@
+package X;
+
+import androidx.credentials.playservices.controllers.CreatePublicKeyCredential.PublicKeyCredentialControllerUtility;
+import com.facebook.react.modules.intent.IntentModule;
+import java.util.List;
+
+/* renamed from: X.A2x  reason: case insensitive filesystem */
+public abstract class C39633A2x {
+    public static final List A00;
+    public static final List A01;
+    public static final List A02;
+    public static final C368128s7 A03;
+    public static final C368128s7 A04;
+    public static final C368128s7 A05;
+    public static final C368138s8 A06;
+    public static final C368138s8 A07;
+    public static final C368138s8 A08;
+    public static final C368138s8 A09;
+    public static final C368138s8 A0A;
+    public static final C368138s8 A0B;
+    public static final C368138s8 A0C;
+    public static final C368138s8 A0D;
+    public static final C368138s8 A0E;
+    public static final C368138s8 A0F;
+    public static final C368138s8 A0G;
+    public static final C368138s8 A0H;
+    public static final C368138s8 A0I;
+    public static final C368138s8 A0J;
+    public static final C368138s8 A0K;
+    public static final C368138s8 A0L;
+    public static final C368138s8 A0M;
+
+    static {
+        C368128s7 r13 = new C368128s7("user_values", "name='active_session_info'", new String[]{PublicKeyCredentialControllerUtility.JSON_KEY_NAME, IntentModule.EXTRA_MAP_KEY_FOR_VALUE});
+        A03 = r13;
+        C368128s7 r2 = new C368128s7("user_values", "name='saved_session_info'", new String[]{PublicKeyCredentialControllerUtility.JSON_KEY_NAME, IntentModule.EXTRA_MAP_KEY_FOR_VALUE});
+        A05 = r2;
+        C368128s7 r1 = new C368128s7("user_values", "name='all_session_info'", new String[]{PublicKeyCredentialControllerUtility.JSON_KEY_NAME, IntentModule.EXTRA_MAP_KEY_FOR_VALUE});
+        A04 = r1;
+        C368098s4 r25 = C368098s4.FACEBOOK;
+        0PH r21 = C60020ci.A0d;
+        C368138s8 r20 = new C368138s8(r21, "content://com.facebook.katana.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.katana", r13, r25);
+        A09 = r20;
+        0PH r5 = r21;
+        C368098s4 r9 = r25;
+        C368138s8 r4 = new C368138s8(r5, "content://com.facebook.wakizashi.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.wakizashi", r13, r9);
+        A06 = r4;
+        C368138s8 r202 = new C368138s8(r21, "content://com.facebook.katana.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.katana", r2, r25);
+        A0B = r202;
+        C368138s8 r42 = new C368138s8(r5, "content://com.facebook.wakizashi.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.wakizashi", r2, r9);
+        A08 = r42;
+        C368128s7 r24 = r1;
+        C368138s8 r203 = new C368138s8(r21, "content://com.facebook.katana.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.katana", r24, r25);
+        A0A = r203;
+        C368138s8 r204 = new C368138s8(r21, "content://com.facebook.wakizashi.liteprovider.FirstPartyUserValuesLiteProvider/user_values", "com.facebook.wakizashi", r24, r25);
+        A07 = r204;
+        C368098s4 r252 = C368098s4.MESSENGER;
+        C368138s8 r205 = new C368138s8(r21, "content://com.facebook.orca.liteprovider.FamilyAppsUserValuesLiteProvider/user_values", "com.facebook.orca", r13, r252);
+        A0H = r205;
+        C368098s4 r31 = C368098s4.MESSENGER_WITH_LITE_PROVIDER;
+        0PH r27 = r5;
+        String str = "content://com.facebook.orca.liteprovider.FamilyAppsUserValuesLiteProvider/user_values";
+        String str2 = "com.facebook.orca";
+        C368138s8 r26 = new C368138s8(r27, str, str2, r13, r31);
+        A0I = r26;
+        C368138s8 r206 = new C368138s8(r21, "content://com.facebook.orca.liteprovider.FamilyAppsUserValuesLiteProvider/user_values", "com.facebook.orca", r2, r252);
+        A0L = r206;
+        C368138s8 r262 = new C368138s8(r27, str, str2, r2, r31);
+        A0M = r262;
+        C368138s8 r207 = new C368138s8(r21, "content://com.facebook.orca.liteprovider.FamilyAppsUserValuesLiteProvider/user_values", "com.facebook.orca", r1, r252);
+        A0J = r207;
+        C368138s8 r263 = new C368138s8(r27, str, str2, r1, r31);
+        A0K = r263;
+        C368128s7 r12 = new C368128s7((String) null, (String) null, new String[0]);
+        C368098s4 r272 = C368098s4.INSTAGRAM;
+        0PH r23 = C60020ci.A0m;
+        C368138s8 r22 = new C368138s8(r23, "content://com.instagram.liteprovider.FirstPartyUserValuesLiteProvider", "com.instagram.android", r12, r272);
+        A0D = r22;
+        C368138s8 r28 = new C368138s8(r23, "content://com.instagram.liteprovider.FirstPartyUserValuesLiteProviderV2", "com.instagram.android", new C368128s7((String) null, (String) null, new String[0]), C368098s4.INSTAGRAM_WITH_V2_PROVIDER);
+        A0E = r28;
+        C368138s8 r222 = new C368138s8(r23, "content://com.instagram.liteprovider.FirstPartyUserValuesLiteProvider", "com.instagram.android", new C368128s7((String) null, "name='saved_session_info'", new String[0]), r272);
+        A0G = r222;
+        C368138s8 r223 = new C368138s8(r23, "content://com.instagram.liteprovider.FirstPartyUserValuesLiteProvider", "com.instagram.android", new C368128s7((String) null, "all_session_info", new String[0]), r272);
+        A0F = r223;
+        C368138s8 r208 = new C368138s8(r21, "content://com.facebook.lite.provider.LiteUserValuesProvider/user_values", "com.facebook.lite", r13, C368098s4.FACEBOOK_LITE);
+        A0C = r208;
+        A00 = 0sr.A1P(new C368138s8[]{r20, r4, r205, r26, r22, r28, r208});
+        A02 = 0sr.A1P(new C368138s8[]{r202, r42, r206, r262, r222});
+        A01 = 0sr.A1P(new C368138s8[]{r203, r204, r207, r263, r223});
+    }
+}

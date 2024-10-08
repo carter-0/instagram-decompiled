@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-bitmap xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt" app:fbui_src="@drawable/instagram_direct_pano_filled_24" app:fbui_tint="@color/igds_search_meta_ai_send_button_icon_color"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/igds_color_creation_tools_grey_07"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:height="17dp" android:width="17dp" android:drawable="@drawable/bubble_tail"/>
+</layer-list>

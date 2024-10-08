@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="background_action">r/ilr.xml</drawable>
+    <drawable name="border_bottom">r/ils.xml</drawable>
+    <drawable name="border_top">r/ilt.xml</drawable>
+    <drawable name="card_gallery_foreground_overlay">r/ilu.xml</drawable>
+    <drawable name="direct_thread_details_edit_text_bg">r/ilv.xml</drawable>
+    <drawable name="dynamic_empty_story_badge_vector_drawable">r/ilw.xml</drawable>
+    <drawable name="empty_state_follow_avatar">r/ilx.xml</drawable>
+    <drawable name="generic_xma_image_foreground_fade">r/ily.xml</drawable>
+    <drawable name="grey_square_border">r/ilz.xml</drawable>
+    <drawable name="igds_prism_secondary_button_background_d">r/il0.xml</drawable>
+    <drawable name="instagram_video_chat_halloween_bat_night">r/il1.xml</drawable>
+    <drawable name="instagram_video_chat_halloween_pumpkin_night">r/il2.xml</drawable>
+    <drawable name="instant_reply_pill_background">r/il3.xml</drawable>
+    <drawable name="map_tooltip_arrow">r/il4.xml</drawable>
+    <drawable name="map_tooltip_background">r/il5.xml</drawable>
+    <drawable name="pill_text_state_list">r/il6.xml</drawable>
+    <drawable name="pill_unread_count_state_list">r/il7.xml</drawable>
+    <drawable name="prism_in_app_notification_background">r/il8.xml</drawable>
+    <drawable name="prism_switch_background">r/il9.xml</drawable>
+    <drawable name="prism_switch_background_active">r/il_.xml</drawable>
+    <drawable name="prism_switch_handle">r/il-.xml</drawable>
+    <drawable name="pulse_circle">r/ima.xml</drawable>
+    <drawable name="reel_upload_determinate_progress">r/imb.xml</drawable>
+    <drawable name="reg_username_suggestion_button">r/imc.xml</drawable>
+    <drawable name="suggested_user_card_private_profile_notice_background">r/imd.xml</drawable>
+    <drawable name="track_scrubber_style">r/ime.xml</drawable>
+    <drawable name="user_card_background">r/imf.xml</drawable>
+</resources>

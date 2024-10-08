@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="eligible_checkmark">R||AQAIRG-sisaC|144|144|120</drawable>
+    <drawable name="fingerprint_dialog_error">r/eay.png</drawable>
+    <drawable name="ic_call_answer">r/ea0.png</drawable>
+    <drawable name="ic_call_answer_video">r/ea1.png</drawable>
+    <drawable name="ic_call_decline">r/ea2.png</drawable>
+    <drawable name="ic_other_sign_in">r/ea3.png</drawable>
+    <drawable name="ic_passkey">r/ea4.png</drawable>
+    <drawable name="ic_password">r/ea5.png</drawable>
+    <drawable name="ineligible_x">R||AQAIf9jDKxjw|144|144|120</drawable>
+    <drawable name="remembering">R||AQABJp5TwV0T|72|72|120</drawable>
+</resources>

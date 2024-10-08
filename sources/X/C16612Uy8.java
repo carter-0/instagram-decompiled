@@ -1,0 +1,66 @@
+package X;
+
+/* renamed from: X.Uy8  reason: case insensitive filesystem */
+public enum C16612Uy8 {
+    START_CAMERA_SESSION(0, 0, r48),
+    STOP_CAMERA_SESSION(1, 0, r48),
+    AD_QUERY_STARTED(2, 0, r48),
+    AD_QUERY_ERROR(3, 2131961743, r48),
+    AD_QUERY_SUCCESS(4, 0, r48),
+    FLIP_CAMERA_BUTTON_CLICKED(5, 0, r48),
+    CLOSE_CAMERA_BUTTON_CLICKED(6, 0, r48),
+    ADVERTISER_PROFILE_CLICKED(7, 0, r48),
+    CTA_CLICKED(8, 0, r48),
+    EFFECT_FETCH_STARTED(9, 0, r48),
+    EFFECT_FETCH_FAILED(10, 2131961746, r48),
+    EFFECT_FETCH_SUCCESS(11, 0, r48),
+    EFFECT_RENDER_STARTED(12, 0, r48),
+    EFFECT_RENDER_FAILED(13, 2131961747, r48),
+    EFFECT_RENDER_SUCCESS(14, 0, r48),
+    EFFECT_RENDER_STOPPED(15, 0, r48),
+    DYNAMIC_EFFECT_LOAD_SUCCESS(16, 0, r48),
+    DYNAMIC_EFFECT_LOAD_FAIL(17, 0, r48),
+    SHOW_AR3D_TOGGLE_BUTTON(18, 0, r48),
+    AR3D_TOGGLE_BUTTON_CLICKED(19, 0, r48),
+    PERMISSIONS_REQUESTED(20, 0, r48),
+    MICROPHONE_PERMISSION_GRANTED(21, 0, r48),
+    MICROPHONE_PERMISSION_DENIED(22, 0, r48),
+    CAMERA_PERMISSION_GRANTED(23, 0, r48),
+    CAMERA_PERMISSION_DENIED(24, 0, r48),
+    VARIANT_CHANGED(25, 0, r48),
+    PHOTO_CAPTURE_STARTED(26, 0, r48),
+    PHOTO_CAPTURE_SUCCESS(27, 0, r48),
+    PHOTO_CAPTURE_ERROR(28, 2131961745, r48),
+    VIDEO_CAPTURE_STARTED(29, 0, r48),
+    VIDEO_CAPTURE_SUCCESS(30, 0, r48),
+    VIDEO_CAPTURE_ERROR(31, 2131961745, r48),
+    MORE_OPTIONS_BUTTON_CLICKED(32, 0, r48),
+    REPORT_EFFECT_BUTTON_CLICKED(33, 0, r48),
+    LICENSE_BUTTON_CLICKED(34, 0, r48),
+    MIX_AND_MATCH_LOOK_CHANGED(35, 0, r48),
+    DIMENSION_USED(36, 0, r48),
+    ROTATION_USED(37, 0, r48),
+    MODEL_PLACED(38, 0, r48),
+    SLIDER_ROTATION_USED(39, 0, r48),
+    PLATFORM_EVENT_PARSING_ERROR(40, 0, r54),
+    PITCH_ZOOM_USED(41, 0, r54),
+    MODE_AR_STARTED(42, 0, r54),
+    MODE_3D_STARTED(43, 0, r54);
+    
+    public final int A00;
+    public final Integer A01;
+    public final String A02;
+
+    /* access modifiers changed from: public */
+    static {
+        C16612Uy8[] uy8Arr;
+        A03 = 0oU.A00(uy8Arr);
+    }
+
+    /* access modifiers changed from: public */
+    C16612Uy8(int i, int i2, Integer num) {
+        this.A02 = r2;
+        this.A01 = num;
+        this.A00 = i2;
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="(name removed)">County/Region</string>
+    <string name="(name removed)">Town/City</string>
+    <string name="(name removed)">Flat/Apt (optional)</string>
+    <string name="(name removed)">Minimise browser</string>
+    <string name="(name removed)">Go Back</string>
+    <string name="(name removed)">Card number</string>
+    <string name="(name removed)">3-digit code</string>
+    <string name="(name removed)">4-digit code</string>
+    <string name="(name removed)">Confirm your CVV to use auto-fill</string>
+    <string name="(name removed)">Enter the 3 or 4-digit security code on your %1$s • %2$s to auto-fill this form.</string>
+    <string name="(name removed)">As an extra security check, please enter details for your card ending in %1$s.</string>
+    <string name="(name removed)">Add the full card number for %1$s • %2$s.</string>
+    <string name="(name removed)">Confirm card details</string>
+    <string name="(name removed)">Card number</string>
+    <string name="(name removed)">Enter the 3 or 4-digit security code on your %1$s • %2$s to auto-fill this form.</string>
+    <string name="(name removed)">As an extra security check, please enter details for your card ending in %1$s.</string>
+    <string name="(name removed)">Add the full card number for %1$s • %2$s.</string>
+    <string name="(name removed)">Confirm card details</string>
+    <string name="(name removed)">Confirm the security code for %1$s • %2$s</string>
+    <string name="(name removed)">Confirm the security code for %1$s • %2$s</string>
+    <string name="(name removed)">Email address</string>
+    <string name="(name removed)">Page isn\'t available at the moment</string>
+    <string name="(name removed)">Surname</string>
+    <string name="(name removed)">Open with…</string>
+    <string name="(name removed)">You\'re now viewing full-screen. Swipe left or tap the back button to exit.</string>
+    <string name="(name removed)">We\'re having trouble with setting up %2$s in %1$s at the moment. You can try again, or use %2$s in English (US) for now.</string>
+    <string name="(name removed)">Try Again</string>
+    <string name="(name removed)">Not Now</string>
+    <string name="(name removed)">Sorry, something went wrong.</string>
+    <string name="(name removed)">Postal code</string>
+    <string name="(name removed)">Telephone number</string>
+    <string name="(name removed)">:</string>
+    <string name="(name removed)">:</string>
+    <string name="(name removed)">.</string>
+    <string name="(name removed)">Set time</string>
+</resources>

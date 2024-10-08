@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="https://schemas.android.com/tools" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/browser_forward" android:tint="@color/direct_light_mode_glyph_color_tertiary"/>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/browser_forward" android:tint="@color/countdown_sticker_title_text_color"/>
+    </item>
+</selector>

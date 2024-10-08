@@ -1,0 +1,18 @@
+package X;
+
+import com.facebook.react.modules.dialog.DialogModule;
+
+/* renamed from: X.Bwg  reason: case insensitive filesystem */
+public final class C43342Bwg extends C250663lr implements C250673ls {
+    public final AnonymousClass4Kx modelSelectionSet() {
+        return AnonymousClass7TG.A0W(AnonymousClass4Kz.A00, DialogModule.KEY_TITLE);
+    }
+
+    public C43342Bwg(int i) {
+        super(i);
+    }
+
+    public C43342Bwg() {
+        super(-986202572);
+    }
+}

@@ -1,0 +1,36 @@
+package X;
+
+import java.io.IOException;
+
+/* renamed from: X.ClV  reason: case insensitive filesystem */
+public abstract class C44819ClV {
+    /* JADX WARNING: type inference failed for: r0v4, types: [X.CvP, java.lang.Object] */
+    public static C45383CvP parseFromJson(16F r3) {
+        0qQ.A0B(r3, 0);
+        try {
+            ? obj = new Object();
+            if (r3.A11() != 16L.A0D) {
+                r3.A0z();
+                return null;
+            }
+            while (r3.A1J() != 16L.A09) {
+                String A17 = AnonymousClass7TE.A17(r3);
+                if ("serverMediaUpdateRequest".equals(A17)) {
+                    obj.A00 = C44820ClW.parseFromJson(r3);
+                } else if ("conferenceStateRequest".equals(A17)) {
+                    obj.A01 = C44813ClP.parseFromJson(r3);
+                } else if ("dismissRequest".equals(A17)) {
+                    obj.A02 = C44814ClQ.parseFromJson(r3);
+                } else if ("ringRequest".equals(A17)) {
+                    obj.A03 = C44817ClT.parseFromJson(r3);
+                }
+                r3.A0z();
+            }
+            return obj;
+        } catch (IOException e) {
+            throw e;
+        } catch (Exception e2) {
+            throw AnonymousClass7TE.A0j(e2);
+        }
+    }
+}

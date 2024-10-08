@@ -1,0 +1,40 @@
+package X;
+
+/* renamed from: X.Njy  reason: case insensitive filesystem */
+public enum C69358Njy {
+    E2EE_NUX_V3("E2EE_NUX_V3"),
+    GDRIVE_OPTIN_SOFT_BLOCK("GDRIVE_OPTIN_SOFT_BLOCK"),
+    GDRIVE_OPTIN_HARD_BLOCK("GDRIVE_OPTIN_HARD_BLOCK"),
+    GDRIVE_RESTORE("GDRIVE_RESTORE"),
+    GDRIVE_RESTORE_V2("GDRIVE_RESTORE_V2"),
+    CREATE_PIN("CREATE_PIN"),
+    CREATE_PIN_NUX_V2("CREATE_PIN_NUX_V2"),
+    CREATE_PIN_SELL_WARN_NUX_V3("CREATE_PIN_SELL_WARN_NUX_V3"),
+    SETUP_PIN_HARDBLOCK_V2("SETUP_PIN_HARDBLOCK_V2"),
+    RESTORE_WITH_PIN("RESTORE_WITH_PIN"),
+    OTC_DISPLAY_CODE_INTRO("OTC_DISPLAY_CODE_INTRO"),
+    OTC_DISPLAY_CODE_INTRO_V2("OTC_DISPLAY_CODE_INTRO_V2"),
+    OTC_DISPLAY_CODE("OTC_DISPLAY_CODE"),
+    OTC_DISPLAY_CODE_V2("OTC_DISPLAY_CODE_V2"),
+    OTC_ENTER_CODE("OTC_ENTER_CODE"),
+    OTC_ENTER_CODE_INTRO("OTC_ENTER_CODE_INTRO_V2"),
+    OTC_RESTORE("OTC_RESTORE"),
+    OTC_WAIT("OTC_WAIT"),
+    OTC_DEVICES("OTC_DEVICES"),
+    OTC_DEVICES_V2("OTC_DEVICES_V2"),
+    OPTIONS("OPTIONS"),
+    MEX_EB_UPSELL_NUX("MEX_EB_UPSELL_NUX");
+    
+    public final String A00;
+
+    /* access modifiers changed from: public */
+    static {
+        C69358Njy[] njyArr;
+        A01 = 0oU.A00(njyArr);
+    }
+
+    /* access modifiers changed from: public */
+    C69358Njy(String str) {
+        this.A00 = str;
+    }
+}

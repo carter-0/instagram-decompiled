@@ -1,0 +1,20 @@
+package X;
+
+import com.facebook.react.bridge.CatalystInstanceImpl;
+import java.util.Iterator;
+
+public final /* synthetic */ class TCE implements Runnable {
+    public final /* synthetic */ CatalystInstanceImpl A00;
+
+    public /* synthetic */ TCE(CatalystInstanceImpl catalystInstanceImpl) {
+        this.A00 = catalystInstanceImpl;
+    }
+
+    public final void run() {
+        Iterator it = this.A00.mBridgeIdleListeners.iterator();
+        if (it.hasNext()) {
+            it.next();
+            throw AnonymousClass7TE.A11("onTransitionToBridgeBusy");
+        }
+    }
+}
